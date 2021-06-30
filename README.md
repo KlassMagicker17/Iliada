@@ -1,6 +1,6 @@
 # BIG AS DISCLAIMER
 
-Hindi pa po ito tapos ito. Kung nahanap ninyo to ng maaga, good job, basahin ninyo ang meron na at please send feedback!
+Hindi pa tapos ang proyetong ito. Kung nahanap ninyo to ng maaga, good job, basahin ninyo ang meron na at please send feedback!
 
 # Ano ito?
 
