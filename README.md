@@ -14,6 +14,7 @@ Mga ilang rason bakit kailangan ninyong babasahin ito :
 * Gusto ninyong basahin ang Iliad, pero ayaw ninyong mag-commit.
 * May tama kayo sa ulo. (Tulads tayo lods)
 * Naghahanap kayo ng magagawa pero ayaw ninyo mahirap yun gagawin.
+* Kayo ay kapatid ko.
 
 ## Anong nilalaman nito?
 
@@ -21,7 +22,7 @@ Ang pdf na ito ay :
 * Lumalaman ng -
     * 'tunay' na salin ng kada libro
     * lista ng mga tauhan
-    * buod
+    * buod ng kada libro
 * Pinaikli sa mga parteng tinamad ako isalin.
 * Nilagyan ng mura.
 * Merong paepal ko (sidenteos ganun).
@@ -31,7 +32,7 @@ Ang pdf na ito ay :
 
 ## Pwede ko bang gamitin to?
 
-Kapag ang tanong mo ay kapag pwedeng gamiting pampalit sa totoong Iliad, sana. Ginawa ko ang makakaya ko para maging tumpak at matupad sa orihinal.
+Kapag ang tanong mo ay kapag pwedeng gamiting pampalit sa totoong Iliad, oo pero wala talagang papalit sa orhinal kapag gusto ninyo ng buong buo. Pero kapag gusto lang ninyong malaman yun kwento, yes super pwede. Ginawa ko ang makakaya ko para maging tumpak at matupad sa orihinal.
 
 Kapag ang tanong mo ay kapag pwedeng gamitin, just in general, pwedeng pwede. Ni-license ko to sa Creative Commons. Gamitin ninyo sa mga klase, gamitin ninyo sa youtube video ninyo, gamitin ninyo pamunas ng puwet, kahit ano, puwede. Basta susunod kayo sa mga kasunduan ng CC. More info sa ibaba.
 
