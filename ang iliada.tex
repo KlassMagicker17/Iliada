@@ -1,6 +1,6 @@
 \documentclass[12pt,letterpaper]{report}
 
-\usepackage[letterpaper, margin=1.2in]{geometry}
+% \usepackage[letterpaper, margin=1.2in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{tocloft}
 \usepackage[scale=2]{ccicons}
@@ -12,25 +12,35 @@
 \renewcommand\cftchapaftersnum{.}
 \renewcommand\thechapter{\Roman{chapter}}
 
+\newenvironment{recap}{\begin{samepage}\begin{center}{\large\textbf{ACTION RECAP}}\begin{itemize}}{\end{itemize}\end{center}\end{samepage}}
+\newcommand{\seperate}{\begin{center}$\ast$~$\ast$~$\ast$\end{center}}
+\newcommand{\killchain}[2]{#1 $\rightarrow$ #2}
+
 \pagenumbering{roman}
 
 \begin{document}
 \title{\textbf{Ang Iliada - Bersyong Pangkabataan}}
-\author{Isinalin ng isang Hampaslupa (Ross David Tan) \\ \href{mailto:rdbt.17@gmail.com}{-rdbt.17@gmail.com-}}
+\author{Isinalin at Binuod ng isang Hampaslupa (Ross David Tan) \\ \href{mailto:rdbt.17@gmail.com}{-rdbt.17@gmail.com-}}
 \date{June 19, 2021}
 \maketitle
 
+\addcontentsline{toc}{chapter}{Copyright}
+\vspace*{\fill}
+\begin{center}
+    \href{https://creativecommons.org/licenses/by-sa/4.0/}{\ccbysa \\[0.5cm] Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) \\ (https://creativecommons.org/licenses/by-sa/4.0/)}
+
+\end{center}
+\vspace*{\fill}
+\pagebreak
 \tableofcontents
 \pagebreak
-
 \setlength{\parskip}{1em}
-
 \chapter*{Pambungad}
 \addcontentsline{toc}{chapter}{Pambungad}
 \topskip0pt
 \begin{center}
 
-    Galing sa \href{https://www.gutenberg.org/}{\textbf{Project Gutenberg}} ni Samuel Butler ang pinagbatayan ko nito. Maraming salamat sa kanila.
+    Galing sa \href{https://www.gutenberg.org/}{\textbf{Project Gutenberg}} ang pinagbatayan ko nito. Maraming salamat sa kanila.
 
     Ang nagsulat ng Iliad ay si Homer. Para hindi makalimutan, tandaan si Homer Simpson. (di ko alam kung paano makakatulong ito, pero whateverrrr)
 
@@ -44,15 +54,6 @@
     \vspace*{\fill}
 \end{center}
 \pagebreak
-
-\vspace*{\fill}
-\begin{center}
-    \href{https://creativecommons.org/licenses/by-sa/4.0/}{\ccbysa \\[0.5cm] Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) \\ (https://creativecommons.org/licenses/by-sa/4.0/)}
-    
-\end{center}
-\vspace*{\fill}
-
-
 \pagenumbering{arabic}
 \chapter{Ang Galit ni Achilles}
 
@@ -65,7 +66,7 @@ Kasi naman, niwalang-hiya ni Agamemnon si Chryses, pari ni Apollo. Hinihingi lam
 
 Siyempre si Chryses nasaktan. Sino bang hindi? Kaya, nagdasal sya. ``Apollo, solid nga dali, para sa iyong matapat na pari. Paki patay nga yun tarantadong mga Danaan (Ibang pangalan ng Achaean)."
 
-``Sure bro.'' At sa sa ganun, nagkameron ng pandemya ang mga Achaean. (Pa extra lang to, pero kapag tama ang basa ko, si Apollo ay hindi nagbigay ng isang sakit, pero siya yun sakit. As in, siya mismo yun pumapatay. Pinapana niya kaya sila namamatay. Weird.) 
+``Sure bro.'' At sa sa ganun, nagkameron ng pandemya ang mga Achaean. (Pa extra lang to, pero kapag tama ang basa ko, si Apollo ay hindi nagbigay ng isang sakit, pero siya yun sakit. As in, siya mismo yun pumapatay. Pinapana niya kaya sila namamatay. Weird.)
 
 Sa loob ng siyam na araw, pinagpapatay ni Apollo ang ang mga m\'{u}la at mga aso (NOOOO! bakit yun doggies\dots) Sumunod ang mga tao, at ang pagsunog sa mga bangkay nila. Sa ika sampung araw naisipan ng mga Griyegong, baka dapat meron tayong gawin dito. Para na lang gobyerno natin!
 
@@ -83,7 +84,7 @@ Super offend namin itong Agamemnon, ``Ay aba Calchas, bakit ka ba walang masabin
 
 Sumagot si Achilles, ``Pinakamarangal na anak ni Atreus, ang pinakamasakim sa lahat ng katauhan, saan po kaya kami makakahanap ng pagong babae ninyo? Wala po kasing sari-sari store na nagbebenta ng ganun. Paki balik ng ang babae, sa susunod nating pananakop, pinangangako ko ika'y bibigyan ng kahit gaanong karaming babae gustohin mo.''
 
-Sabi namin ni Agamemnon, ``Pinakang matapang na Achilles, iyang mga kagaguhan mo ay hindi uubra sa akin. Ano ako tanga? Ikaw mismo merong babaez, at sinasabihan mo ako na pakalwan si Chryseis (pangalan ng anak ng pari). Ibigay mo yun sa iyo o baka yun kay  Ajax o Ulysses. Pero ipambukas nanatin ito. Maghanda kayo ng barkong sasakyan ni Chryseis at isang daang baka ihahandog sa Diyos. Magpadala rin tayo ng isang pinuno, si Ajax o si Idomeneus o baka kayo po anak ni Peleus? Baka sakaling ihandog ka kay Apollo siya'y huminahon.''
+Sabi namin ni Agamemnon, ``Pinakang matapang na Achilles, iyang mga kagaguhan mo ay hindi uubra sa akin. Ano ako tanga? Ikaw mismo merong babaez, at sinasabihan mo ako na pakalwan si Chryseis (pangalan ng anak ng pari). Ibigay mo yun sa iyo o baka yun kay  Ajax o Odysseus. Pero ipambukas nanatin ito. Maghanda kayo ng barkong sasakyan ni Chryseis at isang daang baka ihahandog sa Diyos. Magpadala rin tayo ng isang pinuno, si Ajax o si Idomeneus o baka kayo po anak ni Peleus? Baka sakaling ihandog ka kay Apollo siya'y huminahon.''
 
 Kumunot ang nuo ni Achilles, ``Napakasakim mo. Sinong Achaean ang susunod sa mga gusto mo, kahit man patago o palabas ang laban? Wala akong personal na away sa mga Trojans, at wala rin sila sa akin. Merong dagat at bundok na naghihiwalay sa amin. Sumunod kami sa mga gusto mo, manong Bastos (wala akong kinuhang libertaryo sa linyang yaan, like holy shit sanabihan ng Sir Insolence si Agamemnon ni Achilles sa kopya ko) para sa iyong tagumpay sa mga Trojan. Kinakalimutan mo na ikaw ang merong utang? At kami ay tinatakot mong nakawan ng aming pinaghirapang premyo? Nuong huling pangdarambog natin ng Troy, mas maliit ang aking nakukuha kaysa sa iyo, kahit mas malaki ang naitulong ko. Umuwi na lang kaya ako sa Phthia para hindi ako makatulong sa iyo. Napaka-toksik mo eh.''
 
@@ -107,9 +108,9 @@ Tugon ni Agamemnon, ``Ginoo, lahat ng sinabi ninyo ay totoo, pero itong tao nito
 
 Sumabat si Achilles, ``Hindi na nga ako makikinig. Wala akong aawayin para sa babaeng yaan. Walang kang nanakawin kapag ayaw mong pinturan ko ang sibat ko ng dugo mo.''
 
-Nagsibalikan sila sa kani-kanilang mga barkong nakapark sa daungan. Nakita ni Achilles ang kanyang boyfriend, ang anak ni Menoetius, si Patroclus (debate kayo, best friends or gay, you choose. I like na sila ay gay for each other, kaso dito sa Iliad, para talaga silang just super best friends. Sa ibang depiksyon, walang laban, they GAY FOR EACH OTHER.) Si Agamemnon ay naghahanda na ibalik si Chryseis kay Chryses. Nag-impake siya ng isang \textit{hecatomb} (o isang daang baka) at sinama si Chryseis sa barko. Ginawi niyang kapitan si Ulysses.
+Nagsibalikan sila sa kani-kanilang mga barkong nakapark sa daungan. Nakita ni Achilles ang kanyang boyfriend, ang anak ni Menoetius, si Patroclus (debate kayo, best friends or gay, you choose. I like na sila ay gay for each other, kaso dito sa Iliad, para talaga silang just super best friends. Sa ibang depiksyon, walang laban, they GAY FOR EACH OTHER.) Si Agamemnon ay naghahanda na ibalik si Chryseis kay Chryses. Nag-impake siya ng isang \textit{hecatomb} (o isang daang baka) at sinama si Chryseis sa barko. Ginawi niyang kapitan si Odysseus.
 
-Pero, hindi kinalimutan ni Agamemnon ang kangyang pangako. Pinatawag niya si Talthybius at Eurybates. ``Pumunta kayo sa tolda ni Achilles at kunin ninyo si Briseis. Kapag hindi siya sumunod, ako mismo ang pupunta.''
+Pero, hindi ni Agamemnon limut  ang kangyang pangako. Pinatawag niya si Talthybius at Eurybates. ``Pumunta kayo sa tolda ni Achilles at kunin ninyo si Briseis. Kapag hindi siya sumunod, ako mismo ang pupunta.''
 
 Nahanap nila ang tolda, pero nahanap rin nila si Achilles. Sumimangot siya at sinabi, ``Pinadala kayo ni Agamemnon no? Hindi ko kayo kaaway, siya at siya lamang. Babe, baki labas nga si Briseis. Pero kayo ang maging husga ko, kapag ako'y kailanganin ng mga Achaean, kahit anong hanap nila hindi nila ako makikita. Si Agamemnon ay punong-puno ng galit, hindi niya iniisip ang kanyang mga tao.'' (love you Achilles, pero \textit{hypocritical} much?)
 
@@ -119,11 +120,11 @@ Nakinig ni Thetis ang mga hiyaw ng kanyang anak, at tumaas galing sa ibaba ng da
 
 ``Alam mo na naman ah? Bakit ko pa sasabihin.'' Sabi ni Achilles. Pero tuloy parin ninyang ikuwento ang mga naganap. (dito, binuod lang talaga ni Achilles ang nangyari. Di ko susulat yun dahil fuck you.) ``Inay, paki sabi po kay Zeus na sana ang mga Trojan ang manalo sa gerang ito. Para mawasak iyong walang kwentang Agamemnon. (SPITE)''
 
-Nayon, si Thetis naman ang umiyak. ``Anak ko, huwag kang mag-alala. itsitsismis ko kay Zeus lahat. Pero ang alam ko ay nakiki-party siya sa mga Ethiopian at sa ika-labing dalawang araw pa ang ang kaniyang balik. Dito ka lang at pigilan mo lang ang sarili mong patayin si Agamemnon.''
+Nayon, si Thetis naman ang umiyak. ``Anak ko, huwag kang mag-alala. Itsitsismis ko kay Zeus lahat. Pero ang alam ko ay nakiki-party siya sa mga Ethiopian at sa ika-labing dalawang araw pa ang ang kaniyang balik. Dito ka lang at pigilan mo lang ang sarili mong patayin si Agamemnon.''
 
-Ang mga tauhan ni Agamemnon ay nakarating na sa Troy. Ibinalik ni Ulysses si Chryseis kay Chryses. Inilabas rin ni Ulysses ang hecatomb para maalay kay Apollo. Niwisikan ng harina ang mga ihahandog. (ritwal shit)
+Ang mga tauhan ni Agamemnon ay nakarating na sa Troy. Ibinalik ni Odysseus si Chryseis kay Chryses. Inilabas rin ni Odysseus ang hecatomb para maalay kay Apollo. Niwisikan ng harina ang mga ihahandog. (ritwal shit)
 
-``Diyos ko, oks na po.'' at pinatay at binalatan (no, di ko papaltan yun `binalatan') nila ang mga baka. Nakinig ni Apollo at tumigil sa kanyang pagpatay. Inialay nila ang ilan sa karne at ang natira ay kinain ng mga tauhan ni Agamemnon. 
+``Diyos ko, oks na po.'' at pinatay at binalatan (no, di ko papaltan yun `binalatan') nila ang mga baka. Nakinig ni Apollo at tumigil sa kanyang pagpatay. Inialay nila ang ilan sa karne at ang natira ay kinain ng mga tauhan ni Agamemnon.
 
 Nag-piyesta sila hangang dumilim. Sa liwayway, nagsibalikan na ang mga tauhan. Natuawa si Apollo kahapon sa kanilang selebrasyon, kaya't pinabilis niya ang kanilang byahe.
 
@@ -154,33 +155,33 @@ Nagpatawag si Agamemnon ng ikalawang pagpupulong. Nayon, lahat ay kasama. Tumayo
 
 Nasayahan ang mga sundalo, at mabilis na sumunod. Pumunta sila sa kanilang mga barko upang maghanda ng kanilang pag-uwi. Sa taas ng Olympus, nakita ni Hera ang pagbalik ng mga Argives sa mga barko. Pinababa niya si Athena para tigilin ang pagtakas.
 
-Hinanap ni Athena si Ulysses at sinabi sa kaniya, ``Tatakas kayo? Papayagan ninyo si Priam angkinin si Helen? Kay raming namatay upang maibalik siya! Bilisan mo, kausapin mo ang mga tao para hindi sila umalis.''
+Hinanap ni Athena si Odysseus at sinabi sa kaniya, ``Tatakas kayo? Papayagan ninyo si Priam angkinin si Helen? Kay raming namatay upang maibalik siya! Bilisan mo, kausapin mo ang mga tao para hindi sila umalis.''
 
-Alam ni Ulysses ang boses ay nanggagaling sa isang Diyos. Hiniram ni Ulysses ang tungkod (staff, di ko alam kung pano isasalin eh) ni Agamemnon.
+Alam ni Odysseus ang boses ay nanggagaling sa isang Diyos. Hiniram ni Odysseus ang tungkod (staff, di ko alam kung pano isasalin eh) ni Agamemnon.
 
 Kapag nakakita siya ng isang kataasan, ``Ginoo, ang pagtakas ay para sa duwag po. Dito lang po tayo, hindi natin alam kung ano ang tutoong intensyon ni Agamemnon. Baka sinusuri tayo ng hari.''
 
-Kapag naman sundalo lamang, hinahampas ni Ulysses ng tungkod at sinasabi, ``Hoy \textit{boy}, walang takasan. Wala ka bang karangalan? Balik!''
+Kapag naman sundalo lamang, hinahampas ni Odysseus ng tungkod at sinasabi, ``Hoy \textit{boy}, walang takasan. Wala ka bang karangalan? Balik!''
 
-Lahat ay nagsibalikan nga. Pero may isang reklamador. Si Thersites. Pangit daw siya, pilay sa isang paa, kuba ang likod, ang ulo ay patusok at kalbo. (Parang kamukha mo...) Kilalang reklamador itong si Thersites, dati pa ay kay Achilles at Ulysses nagrereklamo. Nayon, kay Agamemnon siya nag-tweet (well sigaw, pero sino ba ang nagsusulat).
+Lahat ay nagsibalikan nga. Pero may isang reklamador. Si Thersites. Pangit daw siya, pilay sa isang paa, kuba ang likod, ang ulo ay patusok at kalbo. (Parang kamukha mo...) Kilalang reklamador itong si Thersites, dati pa ay kay Achilles at Odysseus nagrereklamo. Nayon, kay Agamemnon siya nag-tweet (well sigaw, pero sino ba ang nagsusulat).
 
 ``Agamemnon, da fuck ginagawa mo? Kay dami mo ng ginto at tanso sa iyong tolda. Kami mismo nagbibigay sayo! Mas magaling si Achilles kaysa sa iyo. Kinuha mo yun babae ni Achilles. Kung lumaban sa iyo yun, siguradong hinding-hindi mo na siyang iinsultohin.''
 
-``Hoy Thersites'', Simula ni Ulysses, ``Tigil na sa sitsit mo. Wala ka bang hiya? Sinisigawan mo ang hari ng mga Achaean! Ano naman kapag binigiyan natin si Agamemnon ng mga dambong? Siya ang ating hari at siya ay binigiyan respeto! Kapag nakinig ko pa ikaw magrekalmo, I SWEAR, pupugutan ko ang sarili ko o huhubadan kita para matuto ka ng hiya.''
+``Hoy Thersites'', Simula ni Odysseus, ``Tigil na sa sitsit mo. Wala ka bang hiya? Sinisigawan mo ang hari ng mga Achaean! Ano naman kapag binigiyan natin si Agamemnon ng mga dambong? Siya ang ating hari at siya ay binigiyan respeto! Kapag nakinig ko pa ikaw magrekalmo, I SWEAR, pupugutan ko ang sarili ko o huhubadan kita para matuto ka ng hiya.''
 
-Tapos binugbog ni Ulysses si Thersites gamit ng tungkod. Naawa at natawa ang mga sundalo. May isang nagsabi sa katabi niya ito ata ang pinakamalaking tulong ni Ulysses sa buong hukbong.
+Tapos binugbog ni Odysseus si Thersites gamit ng tungkod. Naawa at natawa ang mga sundalo. May isang nagsabi sa katabi niya ito ata ang pinakamalaking tulong ni Odysseus sa buong hukbong.
 
-Pinuri ni Ulysses si Agamemnon, because lang, tapos pinaalala niya ang proposiya, ``Merong nahusgahang isang babala. Walong sisiw kasama ang kanilang inay, bumubuo ng siyam. Isang ahas ay lumapit at pinagkakain ang mga maya (sparrow really). Tumakas ang nanay, pero nahuli rin ng ahas gamit ng kaniyang mahabang katawan. Nayon, ito ang pinakang importanteng bahagi, biglang naging bato ang ahas. Sa pagkasabi ni Calchas, ito ay isang proposiya, at sa nakikita natin, ito ay nagkakatutuo na. Siyam na taon tayo lalaban sa mga Trojan at sa ika-sampu ay magwawagi!''
+Pinuri ni Odysseus si Agamemnon, because lang, tapos pinaalala niya ang propesiya sa mga Achean, ``Merong nahusgahang isang babala. Walong sisiw kasama ang kanilang inay, bumubuo ng siyam. Isang ahas ay lumapit at pinagkakain ang mga maya (sparrow really). Tumakas ang nanay, pero nahuli rin ng ahas gamit ng kaniyang mahabang katawan. Nayon, ito ang pinakang importanteng bahagi, biglang naging bato ang ahas. Sa pagkasabi ni Calchas, ito ay isang propesiya, at sa nakikita natin, ito ay nagkakatutuo na. Siyam na taon tayo lalaban sa mga Trojan at sa ika-sampu ay magwawagi!''
 
 Nagsigawan ang mga tao. ``Ano ba kayo?'' Sabi ng killjoy ekstra-ordinayr, Nestor. ``Bakit hindi tayo naghahanda? Inaaksaya lang ninyo ang oras sa mga salita. \textit{Words speaks louder than words} diba? Pero haring Agamemnon, isang mungkahi. Ihati mo ang iyong tao sa mga grupo. Sa ganiyan, malalaman mo kung sino ang mahina ang luob at sino ang malakas.''
 
 ``Nestor, napaka-big brayn mo! Maghanda na kayo. Ang magpakita ng kahinaan ay ipapakain natin sa buwitre at askal.''
 
-Hangang naghahanda ang lehiyon, si Agamemnon kasama ni Nestor, Ajax na malaki (the great) at Ajax na maliit (the lesser), haring Idomeneus, si Diomedes, at si Ulysses ay nag-alay ng isang baka kay Zeus. Dinasal ni Agamemnon na sila ang magwagi.
+Hangang naghahanda ang lehiyon, si Agamemnon kasama ni Nestor, Ajax na malaki (the great) at Ajax na maliit (the lesser), haring Idomeneus, si Diomedes, at si Odysseus ay nag-alay ng isang baka kay Zeus. Dinasal ni Agamemnon na sila ang magwagi.
 
 ``Nah.'' Inisip ni Zeus.
 
-Nayon, ang kasunod na parte ay isang listahan. Lista ng kung sino ang lider at ang mga sundalo nila. Di ko na isinama. Super nakakatamad. maghanap na lang kayo ng sariling kopya at dun ninyo basahin.
+Nayon, ang kasunod na parte ay isang listahan. Lista ng kung sino ang lider at ang mga sundalo nila. Di ko na isinama. Super nakakatamad. Maghanap na lang kayo ng sariling kopya at dun ninyo basahin.
 
 Si Iris ay pinapunta kay haring Priam upang ipadala ang balita, na susugod ang mga Achaean. Nagbalat Polites, anak ni Priam, at sinabi kay Priam, ``Tanda, nasa gitna tayo ng gera pero wala kang ginagawa? Nakita ko ang mga Achaean ay nasugod na. Marami sila, kasing kapal ng dahon o ng buhangin sa dalampasigan. Hector, ikaw ang mamuno sa ating lehiyon.''
 
@@ -215,7 +216,7 @@ Sabi ni Paris, ``Tama lang na magalit ka, kapatid. Pero huwag mo akong tatakutin
 
 Natuwa si Hector at pinaupo ang mga sundalo niya. Nakita ni Agamemnon ito at pinababa ang mga pana ng Achaean.
 
-Sigaw ni Hector, ``Mga Trojan at mga Achaean, makinig kayo. Si Menelaus at si Paris ay maglalaban para kay Helen at ang kanyang kayamanan.''
+Sinigaw ni Hector, ``Mga Trojan at mga Achaean, makinig kayo. Si Menelaus at si Paris ay maglalaban para kay Helen at ang kanyang kayamanan.''
 
 Nagsigawan lahat, parehong Achaean at Trojan. Nagpakuha ng tupa si Agamemnon kay Talthybius galing sa kanilang barko, at si Hector galing sa loob ng Troy. Di ko alam kung bakit kailangan ng tupa para maging \textit{official} ang isang kasunduan, pero whatever.
 
@@ -231,9 +232,9 @@ Kinawayan ni Priam si Helen. Pinaupo niya ito sa kanyang tabi. ``Anak, hindi mo 
 
 ``Ah anak ni Atreus. Paano naman yun mas maliit kay Agamemnon, pero mas malapad ang katawan? Yun kaniyang \textit{armor} ay nasa sahig.''
 
-Sabi ni Helen, ``Yan naman ay si Ulysses. Magaling gumawa ng plano.''
+Sabi ni Helen, ``Yan naman ay si Odysseus. Magaling gumawa ng plano.''
 
-Si Anteror, isang paham, ay sumali sa usapan, ``Totoo nga. (meron siyang sinabi tungkol sa pagpunta niya kasama si Menelaus. Something something, speech something. Basta pinuri niya si Ulysses)''
+Si Antenor, isang paham, ay sumali sa usapan, ``Totoo nga. (meron siyang sinabi tungkol sa pagpunta niya kasama si Menelaus. Something something, speech something. Basta pinuri niya si Odysseus)''
 
 Tumuro si Priam sa isa pang Achaean, ``Sino naman itong napakatangkad at may napakalapad na katawan?''
 
@@ -251,11 +252,11 @@ Hiniwa ni Agamemnon ang lalamunan ng tupa. Nagdasal ang lahat kay Zeus.
 
 Bumalik si Priam sa loob ng Ilius (ang pangalan ng Troy ay Ilius) dahil ayaw niyang panoudin ang laban.
 
-Sinukat ni Hector at Ulysses ang sahig. Nag-draw lots sila upang makita kung sino mauuna. Dinasal ng dalawa na sana ang nagpakana ng giyerang ito ay mamatay sa laban. (no one likes Paris, kahit sariling kapatid ayaw eh.)
+Sinukat ni Hector at Odysseus ang sahig. Nag-draw lots sila upang makita kung sino mauuna. Dinasal ng dalawa na sana ang nagpakana ng giyerang ito ay mamatay sa laban. (no one likes Paris, kahit sariling kapatid ayaw eh.)
 
 Si Paris ang una. Tinutok niya ang kaniyang sibat at tinapon. Tumama ito sa kalasag Menelaus.
 
-Nagdasal si Menelaus kay Zeus. tinapon niya ang kaniyang sibat sa kalaban. Tumama sa gilid ni Paris at nasira ang kamiseta. Sumugod si Menelaus at gamit ng kaniyang espada, tinamaan niya ang \textit{helmet} ni Paris. Ang espada niya ay nabasag sa tatlo apat na piraso.
+Nagdasal si Menelaus kay Zeus. Tinapon niya ang kaniyang sibat sa kalaban. Tumama sa gilid ni Paris at nasira ang kamiseta. Sumugod si Menelaus at gamit ng kaniyang espada, tinamaan niya ang \textit{helmet} ni Paris. Ang espada niya ay nabasag sa tatlo apat na piraso.
 
 Hinawakan ni Menelaus ang balahibo sa \textit{helmet} ni Paris (isipin ninyo yun griyegong \textit{helmet}). Hinatak niya si Paris patungo sa mga Achaean. Pero nakisawsaw si Aphrodite.
 
@@ -283,29 +284,29 @@ Dineklara ni Agamemnon na si Menelaus ang panalo.
 \pagebreak
 \chapter{Nasira ang Kasuduaan}
 
-Sa tuktok ng Olympus, nagpupulong-pulong ang mga Diyos.
+Sa tuktok ng Olympus, nagpulong-pulong ang mga Diyos.
 
-Inuuto ni Zeus is Hera. ``Huh. Ang mga Diyosang kakampi ni Menelaus ay nakaupo lang. Pero kahit ano man, panalo na si Menelaus. Tinakas ni Aphrodite si Paris. Ibalik na si Helen kay Menelaus at itigil na natin ang giyera.''
+Inuuto ni Zeus is Hera. ``Huh. Ang mga Diyosang kakampi ni Menelaus ay nakaupo lang. Pero kung ano man, panalo na si Menelaus. Tinakas ni Aphrodite si Paris. Ibalik na si Helen kay Menelaus at itigil na natin ang giyera.''
 
 Nagsibulungan si Athena at si Hera. Tumahik lang si Athena, pero si nagsalita si Hera. ``Kay laki ng pagsisikap ko para mapabagsak ang mga Trojan, tapos gaganyanin mo ako? Hindi, hindi ako makikinig sa iyo.''
 
-``Ano bang ginawa ni Priam at ang kaniyang mga anak sa iyo na gusto mong wasakin ang Ilius? Kapag gusto mo talagang sirain ang Troy, sumangayon ka muna sa aking panukala. Kapag naisipan kong manira ng isang siyudad mo, papayagan mo ako. Hindi ko ako titigilan.''
+``Ano bang ginawa ni Priam at ang kaniyang mga anak sa iyo na gusto mong wasakin ang Ilius? Kapag gusto mo talagang sirain ang Troy, sumangayon ka muna sa aking panukala. Kapag naisipan kong manira ng isang siyudad mo, papayagan mo ako. Hindi mo ako titigilan.''
 
-``Argos, Sparta, at Mycenae. Ayos ba?''
+``Argos, Sparta, at Mycenae. Ayos na ba?''
 
-Sumangayon si Zeus. Pinadala niya si Athena sa iba iba para pukawin ang mga Trojan.
+Sumangayon si Zeus. Pinadala niya si Athena sa ibaba para pukawin ang mga Trojan.
 
-Nagpalit anyo si Athena upang maging kamukha niya si Laodocus. Hinanap niya ang kanyang anak at sinabi, ``Anak, kapag matatamaan mo si Menelaus, siguradong mabibigyan ka ng pinakangmataas na karangalan at puri. Lalo na galing kay Paris.''
+Nagpalit anyo si Athena upang maging kamukha niya si Laodocus, anak ni Antenor. Hinanap niya ang kanyang `anak' at sinabi, ``Anak, kapag matatamaan mo si Menelaus, siguradong mabibigyan ka ng pinakangmataas na karangalan at puri. Lalo na galing kay Paris.''
 
-Pandarus was like, fuck yes. La siyang sentido komun.
+Pandarus was like, me want that.
 
-Tinakloban siya ng mga sundalo niya, kung sakali makita siya ang pumana. Tatama sana diretso sa balat. Pero kakampi parin ni Athena ang mga Achaean. Ginabay niya ang palaso patungo sa sinturon ni Menelaus. Nasugatan ng kauntian si Menelaus.
+Tinakloban siya ng mga sundalo niya, kung sakali makita siya ng mga Achaean. Tatama sana diretso sa balat. Pero kakampi parin ni Athena ang mga Achaean. Ginabayan niya ang palaso patungo sa sinturon ni Menelaus. Nasugatan ng kauntian si Menelaus.
 
-Nagitla si Agamemnon at Menelaus. Nakita nila na ang sugat ay hindi naman ang kamamatay ni Menelaus.
+Nagitla si Agamemnon at Menelaus. Nakita nila na ang dugo, pero hindi naman ang kamamatay ni Menelaus.
 
 Pinatawag agad ni Agamemnon ang manggagamot na si Machaon, anak ni Aesculapius.
 
-``Argives! Sinira ng mga tanginang Trojan ang kasuduaan. Dahil dito, kukunin natin ang Ilius!'' Sigaw ni Agamemnon.
+``Argives! Sinira ng mga Trojan ang kasuduaan. Dahil dito, kukunin natin ang Ilius!'' Sigaw ni Agamemnon.
 
 Lumakad siya sa mga ranggo. Nahanap niya si Idomeneus at guminhawa ang pakiramdam niya. ``Idomeneus, buti nandito ka. Handa ka na ba?''
 
@@ -315,150 +316,155 @@ Nagpatuloy siya hangang makita niya ang dalawang Ajax. ``Hindi mo kailangan sabi
 
 Nagpatuloy siya hangang makita niya si Nestor. Nagbibigay siya ng payo sa kanyang mga sundalo. Dahil si Agamemnon ay extreme simp para kay Nestor, ``Sana ang iyong katawan ay kasing lakas ng iyong utak. Kung gano ay siguradong tayo ang mananalo sa giyerang ito.''
 
-``Haha, oo nga. Pero hindi binibigay ng mga Diyos ng lahatan.''
+``Ha ha, oo nga. Pero hindi binibigay ng mga Diyos ng lahatan.''
 
-Dumirtso siya na may ngiti sa kaniyang mukha. Nakita niya si Menestheus, hari ng Athens. Sa tabi niya ay si Ulysses. ``Anong ginagawa ninyo dito sa likod? Kayo dapat ang nasaunhan ah!''
+Dumirtso siya na may ngiti sa kaniyang mukha. Nakita niya si Menestheus, hari ng Athens. Sa tabi niya ay si Odysseus. ``Anong ginagawa ninyo dito sa likod? Kayo dapat ang nasaunhan ah!''
 
-Pinaglapit ni Ulysses ang kanyang kilay, ``Agamemnon, huh? Kapag tayo ay nasa laban na, duon mo makikita kami na laban. Nakainom ka ba?''
+Pinaglapit ni Odysseus ang kanyang kilay, ``Huh? Kapag tayo ay nasa laban na, duon mo makikita kami na laban. Nakainom ka ba?''
 
 ``Sige, sige, pasensya na. Binabalik ko ang mga sinabi ko.''
 
 Tumuloy siya at nakita si Diomedes kasama si Sthenelus. ``At bakit kayo na andito sa likod? Hindi ba ang tatay mo, Diomedes, ay palaging nasa unahan ng kaniyang mga sundalo? Kinaya daw niya ang isang grupo ng sundalo nang sarili lamang niya.''
 
-Hindi sumagot si Diomedes, pero sumagot si Sthenelus para sakanya. ``Huwag mo kaming ikukumpera sa aming mga ama. Mas magaling kami. Kinuha namin ang Thebes.''
+Hindi sumagot si Diomedes, pero sumagot si Sthenelus para sakanya. ``Wag mo kaming ikukumpera sa aming mga ama. Mas magaling kami. Kinuha namin ang syudad ng Thebes.''
 
-Kumunot ang ulo ni Diomedes. ``Tama na kaibigan. Tama na si Agamemnon ay sabihan tayo. Tinutulak lamang niya ang kaniyang mga taong lumaban.''
+Kumunot ang ulo ni Diomedes. ``Tama na kaibigan. Tama lang na sabihan tayo ni Agamemnon. Tinutulak lamang niya ang kaniyang mga taong lumaban.''
 
 ---
 
 Ang mga sundalo ay nasa pormasyong \textit{phalanx} (it kool, hanapin ninyo sa Google). Tahimik silang lumalapit sa mga Trojan.
 
-Si Antilochus ang unang nakapatay. Sinaksak ni Antilochus ang kaniyang sibat sa gitna ng kilay ni Echepolus. Sinubukan ni haring Elephenor hatakin ang katawan ni Echepolus, pero nakita ito ni Agenor at pinana. Dahil wala siyang bitbit na kalasag, tumama ito sa kaniyang tabi at namatay din.
+Ok ok, kapag hindi ninyo alam, ang Iliad ay tungkol sa Trojan War. At sa isang digmaan, maraming \textit{fight scene}. At sa Iliad, MARAMING \textit{fight scenes}. Pero more or less, ang fight scenes ay: pinatay ni x si y, sinibat ni x si y sa z. Mga ganun ba. Kaya ang gagawin ko ay kada isang \textit{battle scene}, papaltan ko ng \textbf{ACTION RECAP}. Ilalagay ko lang yung natripan ko lang ilagay.
 
-Pinatay ni Ajax na malaki si Simoeisius. Tinapon ni Antiphus, anak ni Priam, ang kaniyang sibat kay Ajax. Hindi ito tumama sa kaniya kung hindi sa taong nasa likod ni Ajax. Nataaman niya si Leucus, isang kakampi ni Ajax, sa titi. Nagalit si Ulysses dito at lumakad sa gitna ng labanan. Hinanda niya ang kaniyang pana at bumaril(?). Tumama ito kay Democoon, anak sa puwera ni Priam.
+\begin{recap}
+    \item Si Antilochus, anak ni Nestor, ang unang nakapatay. Si Echepolus anak ni Thalysius ang pinatay niya.
+    \item kukunin ni Elephenor ang katawan niya, pero pinana siya ni Agenor.
+    \item Ajax na malaki pinatay si Simoeisius (sinama ko lang to dahil sa pangalan niya.)
+    \item Nagtapon ng sibat si Antiphus, lumapas kay Ajax na malaki, tumama kay Leucus na nasa likod niya sa titi.
+    \item Ipinasok ni Ajax na malaki ang sibat sa tabi ng nuo ni Democoon. Lumabas sa kabilang tabi ng ulo. (kool, gore)
+\end{recap}
 
-Galit parin si Ajax kaya ipinasok niya ang kaniyang sibat sa tabi ng nuo ni Democoon. Lumabas ito sa kabilang tabi.
-
-Nainis si Apollo at sinigawan ang mga Trojan, para lang kapag nanunuod ng pelikula at may kagaguhang nababalak ang isa sa mga tauhan. ``Hoy mga gago, sumugod kayo! Wag kayong magpapatalo! Di sila mga \textit{Greed} ng \textit{Full Metal Alchemist}! Wala pati si Achilles, bitter pa sya!''
+Nainis si Apollo at sinigawan ang mga Trojan, para lang kapag nanunuod ng pelikula at may kagaguhang nababalak ang isa sa mga tauhan. ``Hoy mga gago, sumugod kayo! Wag kayong magpapatalo! Di sila mga \textit{Greed} galing sa \textit{Full Metal Alchemist}! Wala pati si Achilles, bitter pa sya!''
 
 Pinadala ni Zeus si Athena para bigyan lakas ang mga nawawalan sa mga Achaean.
 
-Nagtapon ng bato si Peirous at tumama ito kay Diores. Sinaksak pa ni Perious sa tiyan si Diores. Bago siya lumayo sa bangkay, siya ay nasaksak malapit sa utong ni Thoas ng Aetolia. Hiniwa rin niya si Diores sa tiyan. \pagebreak
+\pagebreak
 \chapter{Paglaban ni Diomedes sa mga Diyos}
 
-Nakita ng dalawang magkapatid, Phegeus at Idaeus mga anak ni Dares, si Diomedes. Tinapon ni Phegeus ang siba niya, pero ito ay lumpiad sa taas ng kaliwang balikat ni Diomedes. Si Diomedes naman ang sumibat at ito ay tumama sa dibdib ni Phegeus. Tumakas si Idaeus, at dahil si Dares ay pari ni Hephaestus, naglagay siya ng usok para hindi siya makita.
+Nakita ng dalawang magkapatid, Phegeus at Idaeus mga anak ni Dares, si Diomedes. Tinapon ni Phegeus ang sibat niya, pero ito ay lumipad lamang sa taas ng kaliwang balikat ni Diomedes. Si Diomedes naman ang sumibat at ito ay tumama sa dibdib ni Phegeus. Tumakas si Idaeus, at da   hil si ang tatay nila ay pari ni Hephaestus, naglagay siya ng usok para hindi siya makita.
 
-Ng makita nila si Phegeus patay sa karwahe at si Idaeus ay punong-puno ng takot, Sila mismo ay namuti rin.
+Nang makita nila si Phegeus patay sa karwahe at si Idaeus ay punong-puno ng takot, namutla sila.
 
-Nakita ito ni Athena at sinabi kay Ares, ``Ares, Ares! Umalis na tayo para hindi tayo pagalitan ni Zeus.''
+Nakita ito ni Athena at sinabi kay Ares, ``Ares, Ares! Umalis na tayo, baka pagalitan pa tayo ni Zeus at sabihan na pakialamero tayo.''
 
-Pinatalbog ni Agamemnon si Odius, ang pinuno ng mga Halizoni, galing sa kaniyang karwahe. Sinaksak rin ni Agamemnon sa likod si Odius bago ito makalingon.
+Dahil uto-uto si Ares, umupo siya sa tabi ng ilog Scamander. Iniwan niya ang mga Trojan. ITS TIME FOR\dots
 
-Pinatay ni Idomeneus si Phaesus, anak ni Borus ng Meonian, gabit ng sibat niya. Pinadaan niya ang sibat sa kanang balikat ni Phaesus.
+\begin{recap}
+    \item Pinatalbog ni Agamemnon si Odius galing sa karwahe at sinaksak sa likod bago maka tayo.
+    \item Sinaksak ni Idomeneus si Phaesus sa kanang balikat habang nasakay si Phaeus sa karwahe niya.
+    \item Sinibat ni Menelaus ang natakas na Scamandrius.
+    \item Natamaan ni Meriones si Phereclus sa kanang puwet.
+    \item Sa batok ni Pedaeus naman ipinasok ni Meges ang sbiat niya at lumabas sa bibig.
+    \item Tinaga ni Eurypylus ang braso ni Hypsenor.
+\end{recap}
 
-Si Menelaus naman ay pumatay kay Scamandrius anak ni Strophius. Bago siya makatakas, tinapon ni Menelaus ang kaniyang sibat.
+Kay daming napatay na Trojan na ni Diomedes nang tamaan siya ng isang palaso sa balikat. Ito ay galing kay Pandarus, anak ni Lycaon. ``SCORE! Natamaan ko si Diomedes, guys. Hindi na siya mabubuhay nang matagal kapag ginusto ni pareng Apollo.''
 
-Meriones ang tumapos kay Phereclus, anak ni Tecton. Sa kanang puwetan dumaan ang sibat ni Meriones kay Phereclus.
+Tumakbo siya patungo sa karwahe ni Sthenelus. ``Paki hugot nga nitong palaso.'' Sumunod si Sthenelus.
 
-Pinasok ni Meges ang sibat niya sa batok ni Pedaeus, anak ni Antenor. Lumabas ito sa kaniyang bibig.
+Dumaloy ang dugo galing sa sugat. Dasal ni Diomedes, ``Pallas Athena, kung talagang pabor mo ang aking tatay, tulungan mo akong makalapit sa walang hinyang Pandarus na iyon para magawa ko siyang \textit{barbeque on a stick}.''
 
-Tinaga ni Eurypylus ang braso ni Hypsenor, anak ni Euaemon. Gumulong ang kaniyang bisig sa sahig, sumunod din ang kaniyang katawan.
+Nakinig ni Athena ang dasal niya. ``Huwag kang matakot Diomedes. Ibinibigay ko sa iyo ang lakas ng iyong ama, si Tydeus. Binibigay ko rin sa iyo ang Magic Eyes \textsuperscript{TM}, ang abilidad makita kung sinong tao lamang at sinong Diyos nagpapanggap na tao. Huwag kang makikipaglaban sa ibang Diyos, maliban na lang si Aphrodite. Kapag nakita mo si \textit{Bitch}, paki patay please and thank you.''
 
-At ganyan tumuloy digmaan.
+Tinurokan niya si Diomedes ng steroids at naramdaman niya ang lakas ng ama niya. Sumunod ay ang paghahanap at pagpatay ni Diomedes ng apat na magkapatid.
 
-Kay daming napatay na Trojan na si Diomedes ng tamaan siya ng isang palaso. Ito ay galing kay Pandarus, anak ni Lycaon. ``Mga Trojan, nasugatan ko ang pinakamatapang sa mga Achaean. Hindi na siya mabubuhay kapag ginusto ng Diyos kong Apollo.''
+Hinahanap ni Aeneas si Pandarus. Nang makita niya na natatalo ang mga Trojan. ``Pandarus, nasaan ang iyong mga kabayo? Tara, susugurin natin yung masyadong mataas ang KDR.'' (kapag iisipin ninyo, undefined ang KDR mo as long as hindi ka pa patay.)
 
-Tumakbo siya patungo sa karwahe ni Sthenelus. ``Paki tagkal nga nitong palaso sa aking balikat.'' Sumunod si Sthenelus.
+Sagot ni Pandarus, ``Bro, si Diomedes yun. Pamilyar sa akin yun mga suot at kabayo niya. Natamaan ko na siya kanina pero mukhang hindi parin siya namatay. Wala akong kabayo dahil inayawan ko yung mga ibinigay ni itay, masyadong \textit{choosy} sa pagkain. Nayon na naisip ko, natamaan ko na rin ang mga anak ni Atreus, pero mukhang nagalit lang sila. Tangina, kapag ako'y umuwi, buti pang pugutan ako ng ulo kapag ayaw ng pana kong sunugin ko siya. Kooperate Bowy, kapag ayaw mong itapon kita sa isang bulkan.''
 
-Lumabas ang dugo galing sa sugat niya. Dasal ni Diomedes, ``Pallas Athena, kung talagang pabor mo ang aking tatay, tulungan mo akong makalapit sa walang hinyang Pandarus na iyon para magawa ko siyang \textit{barbeque on a stick}. Mas mabilis siya sa akin at nasaktan niya ako. Pinagyayabang pa niya na mamatay ako.''
-
-Nakinig ni Athena ito at sinabi sa kaniya, ``Huwag kang matakot Diomedes. Ibinibigay ko sa iyo ang lakas ng iyong ama, si Tydeus. Binigay ko rin sa iyo ang abilidad makita kung sinong tao lamang at sinong Diyos nagpapanggap na tao. Huwag kang lalaban ng ibang Diyos. Pero kung si \textit{bitch} Aphrodite ang makita mo, paki patay ng pisteng yawang iyon.''
-
-Naramdaman ni Diomedes na siya'y lumakas. Umuna siya at pinatay si Astynous. Hinanap niya si Abas at Polyidus, mga anak ng mambabasa ng panaginip. Hindi na sila bumalik para magbasa, sapagkat pinatay na sila ni Diomedes (OHHHHHH). Hinanap niya si Xanthus at Thoon, mga anak ni Phaenops. Itong magkapatid ang dadalawang anak niya, dahil sa kaniyang katandaan ay hindi na siya magkaanak muli. Umiyak na lamang siya ng malaman niya na patay ng ang kaniyang mga anak.
-
-Nakita naman ni Diomedes ang dalawang anak ni Priam, Echemmon at Chromius, nakasakay sa isang karwahe. Pinatalsik niya ang dalawa.
-
-Hinanap ni Aeneas si Pandarus ng makita niya na natatalo ang mga Trojan. ``Pandarus, nasaan ang iyong pana, ang iyong mga palaso? Patayin mo yun nakapatay na ng maraming tao natin.''
-
-Sagot ni Pandarus, ``Aeneas, sa tingin ko, siya ay si Diomedes, anak ni Tydeus. Yun kaniyang kalasag, \textit{helmet}, at mga kabayo ay pamilyar sa akin. Maaring Diyos siya, pero kung hindi siya isang Diyos, may tulong siya ng isang Diyos. Natamaan ko na siya kanina pero mukhang hindi parin siya namatay. May Diyos na siguradong galit sa akin. Inayawan ko yung mga kabayo ni itay, natakot ako na hindi nila kayanin dito sa labas. Napakayaman kumain nung mga yun eh. Nayon na naisip ko, natamaan ko na rin ang mga anak ni Atreus, pero mukhang nagalit lang sila lalo. Tangina, kapag ako'y umuwi, buti pang pugutan ako ng ulo kapag ayaw ng pana kong sunugin ko siya. Ano bang kalokohan gusto mo sa akin?''
-
-Tugon ni Aeneas, ``Sige sige. Mukhang hindi tayo mananalo hangang buhay si Diomedes. Sumakay ka sa karawahe ko. Sinong \textit{driver}?''
+Tugon ni Aeneas, ``Sige sige. Mukhang hindi tayo mananalo hangang buhay pa si Diomedes. Sino \textit{driver}?''
 
 ``Ikaw na lang, mas kilala ka ng iyong mga kabayo.''
 
-Nakita ni Sthenelus na merong nasugod sa kanila, ``Diomedes, merong dalawang parating dito. Si Pandarus at Aeneas ata. Tara, umatras tayo, baka ikaw ay mapatay pa.''
+Nakita ni Sthenelus na merong nasugod sa kanila, ``Diomedes, merong dalawang parating dito. Si Pandarus at Aeneas ata. Tara, bumalik muna tayo, baka mapatay ka pa.''
 
-``Anong takas? La akong alam tungkol sa takas, ano yun pagkain? Hindi pa pati ako pagod. Sabi ni Athena sa akin na huwag matakot kay sino man. Dito ka lang at nanakawin natin ang mga kabayo nila. Bayad ni Zeus ang mga kabayong iyong kay Tros para sa anak niyang si Ganymede.''
+``Anong takas? La akong alam tungkol sa takas, ano yun pagkain? Hindi pa pati ako pagod. Sabi ni Athena sa akin na huwag matakot kay sino man. Dito ka lang at nanakawin natin ang mga kabayo nila. Galing kay Zeus ang mga kabayong yan.''
 
 Nakalapit na ang dalawa kay na Diomedes at Sthenelus. Sabi ni Pandarus, ``Huh, hindi gumana palaso ko. \textit{testing} natin ang sibat ko.''
 
-Tinapon niya ang sibat. Tumama lamang ito sa kalasag ni Diomedes. Pero ito ay tumagos at tumama sa tiyan niya. ``Ha! Tumama sa tiyan mo. Di ka na makakatayo, Diomedes.''
+Tinapon niya ang sibat. Tumama lamang ito sa kalasag ni Diomedes. Pero ito ay tumagos at tumama sa tiyan niya. ``Ha! Di ka na tatagal, Diomedes.''
 
-Naglabas si Diomedes ng \textit{reverse uno card} at tinapon ang sariling sibat. Sa tulong ni Athena, tumama ito sa malapit sa mata at ilong ni Pandarus. Nahulog siya sa sahig at nakinig ang klak ng kaniyang suot ng \textit{armor}.
+Naglabas si Diomedes ng \textit{reverse uno card} at tinapon ang sariling sibat. Sa tulong ni Athena, tumama ito malapit sa mata at ilong ni Pandarus. Nahulog siya sa sahig at nakinig ang \textit{klak} ng \textit{armor}.
 
-Tumalon si Aeneas at sinugod si Diomedes. Kumuha siya ng isang malaking bato, napakalaki na dapat kinailangan na dalawang tao ang bubuhat. Gamit ng bato, tinamaan niya si Aeneas sa singit at dinurog ang mga buto duon. Mamamatay na siya sana ng tinakloban siya ni Aphrodite, ang kaniyang anak.
+Tumalon si Aeneas at sinugod si Diomedes. Kumuha siya ng isang malaking bato, napakalaki na dapat kinailangan na dalawang tao ang bubuhat. Tinamaan niya si Aeneas sa singit at dinurog ang mga buto duon. Mamamatay na siya sana ng itinakas siya ni Aphrodite, ang kaniyang anak.
 
-Sa lahat ng nangyayari, kinuha ni Sthenelus ang mga kabayo ni Aeneas at itinakbo patungo sa banda ng nga Achaean. Iniabot niya ito kay Deipylus, ang kanyang matapat na kaibigan para dalhin sa mga barko nila.
+Sa lahat ng nangyayari, kinuha ni Sthenelus ang mga kabayo ni Aeneas at itinakbo patungo sa banda ng nga Achaean. Iniabot niya ang mga ito kay Deipylus, ang kanyang matapat na kaibigan para dalhin sa mga barko nila.
 
-Bumalik si Sthenelus para hanapin si Diomedes. Hinahabol niya si Aphrodite, dahil alam ni Diomedes na hindi niya kayang makipaglaban hindi tulad ng mga ibang Diyos.
+Bumalik si Sthenelus para hanapin si ang kaniyang kakampi. Hinahabol niya si Aphrodite.
 
-Naabutan niya si Aphrodite at isinaksak ang sibat sa kamay ng Diyosa. Lumabas ang gintong dugo ng mga Diyos, o \textit{ichor}. Nahulog si Aeneas pero sinambot ni Apollo. ``Aphrodite, umalis ka na. Hindi ka ba ko kuntento sa mga babaeng niloloko mo?''
+Naabutan niya si Aphrodite at isinaksak ang sibat sa kamay ng Diyosa. Lumabas ang gintong dugo ng mga Diyos, o \textit{ichor}. Nahulog si Aeneas pero sinambot ni Apollo. ``Aphrodite, wag kang makisawsaw sa labanan. Makuntento sa mga babaeng niloloko mo. Umuwi ka na.''
 
-Dumating si Iris at itinakas niya si Aphrodite. Nakasalubong niya si Ares na nakaupo sa tabi ng ilog Scamander. ``Ares, iligtas mo ako! May sumugat na tao sa akin, ang anak ni Tydeus.''
+Dumating si Iris at dinampot niya si Aphrodite. Sa tabi ng ilog Scamander, nakasalubong niya si Ares na sinusudot-sudot ang buhangin. ``Ares, iligtas mo ako! Tingnan mo, sinugatan ako ni Diomedes.''
 
-Ibinigay ni Ares ang kanyang mga kabayong may suot ng ginto. Lumipad sila patungo sa Olympus. Kung bakit hindi na lang sila mag-\textit{teleport} ay awan ko.
+Ibinigay ni Ares ang kanyang mga kabayong may suot ng ginto. Lumipad sila patungo sa Olympus. Kung bakit hindi na lang sila nag-\textit{teleport} ay awan ko.
 
-Niyakap ni Aphrodite ang kaniyang nanay, si Dione. (nga pala, sa bersyong ito, si Aphrodite ay anak ni Zues at ni Dione. Hindi siya yun bula ng titi ni Kronos.) ``Anong ng yari? Sinong Diyos ang sumugat sa iyo?''
+Niyakap ni Aphrodite ang kaniyang nanay, si Dione. (nga pala, sa bersyong ito, si Aphrodite ay anak ni Zues at ni Dione. Hindi siya galing sa bula-bula ng titi ni Ouranos.) ``Anong ng yari? Sinong Diyos ang sumugat sa iyo?''
 
 Umungol-ungol si Aphrodite, ``Si Di- Diomedes po, huhuhu.''
 
-``Ahh,'' Sagot ni Dione. ``Tayong mga Diyos ay matagal na nagdurusa sa mga kamay ng mga mortal. Merong isang beses kinidnap si Ares at inilagay sa isang pasilyo. Duon siya nakakulong ng isang taon at isang buwan. Nakatakas na lang siya ng tulungan siya ni Hermes. Si Hera naman, pinana siya ni Heracles at wala na lang siyang ginawa kung hindi magreklamo. Si Hades rin, tinamaan ni Heracles sa dibdib ng kaniyang palaso. At nayon si Athena ay kumakampi sa anak ni Tydeus? Hmp, tingnan na lang natin kung hindi umiyak ang kaniyang asawa ng malaman niyang namatay na ang kaniyang asawa.''
+``Ahh,'' Sagot ni Dione. ``Tayong mga Diyos ay matagal na nagdurusa sa mga kamay ng mga tao. Merong isang beses kinidnap si Ares at inilagay sa isang pasilyo. Duon siya nakakulong ng isang taon at isang buwan. Nakatakas lang nang tulungan siya ni Hermes. Si Hera naman, pinana siya ni Heracles at wala na lang siyang ginawa kung hindi magreklamo sa sakit. Si Hades rin, tinamaan ni Heracles sa dibdib ng kaniyang palaso. At nayon si Athena ay kumakampi sa anak ni Tydeus? Hmp, tingnan na lang natin kung hindi umiyak ang asawa ni Diomedes nang malaman niyang namatay na ang kaniyang asawa.''
 
-Nakinig nina Athena at Hera ito, at sa kanilang napakahiwagang pag-iisip, inuto nila si Zeus. ``Itay,'' Simula ni Athena, ``sa aking opinyon, siguradong si Aphrodite ay may sinabihan nanamang isang babaeng Achaean na makisama sa isang Trojan na gusto niya. Napadaan siguro ang kamay ni sa \textit{brooch} ng babae.''
+Nakinig nina Athena at Hera ito, at sa kanilang napakahiwagang pag-iisip, inuto nila si Zeus. ``Itay,'' Simula ni Athena, ``sa aking opinyon, siguro si Aphrodite ay may sinabihan nanamang isang babaeng Achaean na makisama sa isang Trojan na gusto niya. Napadaan siguro ang kamay niya sa \textit{brooch} ng babae.''
 
-Ngumiti na lang si Zeus at tinawag si Aphrodite sa kaniyang tabi. ``Anak, wag ka ng makialam sa giyerang ito, ha?''
+Ngumiti na lang si Zeus at tinawag si Aphrodite sa kaniyang tabi. ``Anak, wag ka ng makialam sa giyerang ito, ha? Hindi maganda sa kutis mo.''
 
-Balik sa baba, hinahabol naman ni Diomedes si Aeneas, kahit na alam niya na nasa mga bisig ni Apollo siya. Tatlong beses siyang tumalon para patayin si Aeneas, talong beses din ni Apollo pinalo si Diomedes gamit ng kaniyang kalasag.
+Balik sa baba, hinahabol naman ni Diomedes si Aeneas, kahit na alam niya na buhat siya ni Apollo siya. Tatlong beses siyang tumalon para patayin si Aeneas, talong beses din ni Apollo pinalo si Diomedes gamit ng kaniyang kalasag.
 
-Tatalon na sana si Diomedes muli ng sabihin ni Apollo, ``Diomedes, bro, lumayas ka na. Wala kang laban sa mga Diyos. Di kami tulad ni Aphrodite.''
+Tatalon na sana si Diomedes ulit nang sabihin ni Apollo, ``Diomedes, bro, lumayas ka na. Wala kang laban sa aming mga Diyos. Di kami lahat Aphrodite.''
 
-Tumakbo si Diomedes. Ayaw niyang magalit pa lalo ang Diyos sa kaniya. Inilahad ni Apollo si Aeneas sa kaniyang templo. Duon ginamot siya ni Artemis at Leto, kapatid at nanay ni Apollo.
+Tumakbo si Diomedes. Ayaw niyang magalit pa lalo ang Diyos sa kaniya. Ibinaba ni Apollo si Aeneas sa kaniyang templo. Duon ginamot siya ni Artemis at Leto, kapatid at nanay ni Apollo.
 
-Hinanap ni Apollo si Ares at sinabi, ``Uh bro, pabor nga. Pwede mo bang wag lalapitan ang anak ni Tydeus. *Kindat kindat*.''
+Hinanap ni Apollo si Ares at sinabi, ``Uh bro, pabor nga. Wag na wag mong lalapitan ang anak ni Tydeus.'' Kumindat si Apollo.
 
-Sinaway ni Sarpedon si Hector, ``Hoy, nasaan yun mga kapamilya mo? Sabi mo na kaya ninyong magkakapatid lamang. Ano ka nayon ha?''
+"Wait, HUWAG kong papatayin o Go papatayin?"
+
+Pinalad ni Apollo ang mukha niya. "Oo, patayin mo si Diomedes. Diyos ko po."
+
+\seperate
+
+Sinaway ni Sarpedon si Hector, ``Hoy, nasaan yun mga kapatid mo? Sabi mo kayang kaya ninyong kayo lang. Ano na kayo nayon?''
 
 Nagpatuloy lamang ang laban. Nakabalik si Aeneas sa laban, lahat ng sugat ay nagaling at puso puno ng tapang.
 
 ``Bawal maduwag! Ang maduwag nayon mabaho! THIS IS SPARTA!'' Tapos sinibat ni haring Agamemnon si Deicoon, anak ni Pergasus. Dumaan ito sa kalasag at tumama sa ibaba ng tiyan ni Deicoon.
 
-Tapos si Aeneas naman ang pumatay sa dalawang Danaan, Crethon at Orsilochus. Naawa si Menelaus sa dalawa, sinubukan niyang patayin si Aeneas. Natakot si Antilochus na baka mamatay si Menelaus at lahat pinaglalabanan nila ay mawawalan ng diwa. Umatras si Aeneas dahil dalawa na ang kaniyang kalaban.
+Tapos si Aeneas naman ang pumatay sa dalawang Danaan, Crethon at Orsilochus. Naawa si Menelaus sa dalawa, sinubukan niyang patayin si Aeneas. Natakot si Antilochus na baka mamatay si Menelaus at lahat ng pinaglalabanan nila ay mawawalan ng diwa. Umatras si Aeneas dahil dalawa na ang kaniyang kalaban.
 
-Habang nasa karwahe si Pylaemenes, sinibat ni Menelaus siya sa balagat. Si Antilochus naman ang tumama sa nangmamaneho.
+Habang nasa karwahe si Pylaemenes, sinibat ni Menelaus siya sa balagat. Si Antilochus naman ang tumama sa nagmamaneho.
 
 Nakita ni Hector ito at sinugod ang dalawa. Binigyan ni Ares at Enyo si Hector ng lakas.
 
-Dahil sa \textit{Magic Eyes}\texttrademark na ibinigay ni Athena, kita ni Diomedes na may tulong si Hector galing sa dalawang Diyos. ``Paano,'' simula niya, ``paano kaya si hector nakahahawak at nakagagamit ng kaniyang sibat ng galing na pinakikita niya? Siguradong meron siyang tulong ng mga Diyos. Umurong tayo ng unti, ayaw nating makipaglaban sa mga Diyos.''
+Dahil sa Magic Eyes\textsuperscript{TM} na ibinigay ni Athena, kita ni Diomedes na may tulong si Hector galing sa dalawang Diyos. ``Umurong tayo, ayaw nating makipaglaban sa mga Diyos.''
 
-Lumapit lalo ang ang Trojan at si Hector ay pumatay ng dalawang Achaean. Si Mensethes at Anchialus. Tinapon naman ni Ajax na malaki ang kaniyang sibat, tinamaan si Amphius. Sinubukan ni Ajax na malaki kunin ang \textit{armor} niya, kaso nagpaulan ang mga Trojan ng palaso at sibat. Kinuha na lamang ni Ajax na malaki ang sibat niya.
+Lumapit ang Trojan at si Hector ay pumatay ng dalawang Achaean. Si Menesthes at Anchialus. Tinapon naman ni Ajax na malaki ang kaniyang sibat, tinamaan si Amphius. Sinubukan ni Ajax kunin ang \textit{armor} niya, kaso nagpaulan ang mga Trojan ng palaso at sibat. Binawi na lamang ni Ajax ang sibat niya.
 
-Si Tlepolemus, anak ni Heracles, ay nakikipaglaban kay Sarpedon, anak ni Zeus. ``Sarpedon, da pak ginagawa mo dito? Ang alam ko, duwag ka daw ah. Ibang-iba sa aking ama. Papupuntahin ko ikaw sa baybayin ni Hades.''
+Si Tlepolemus, anak ni Heracles, ay nakikipaglaban kay Sarpedon, anak ni Zeus. ``Sarpedon, nakikipagdigmaan? Bago yun ah. Sumuko ka na kapag ayaw mong papuntahin kita sa bahay ni Hades.''
 
-``Hindi mangyayari yan kapag inunahan kita.''
+``Mauna ka muna.''
 
-Tinapon nila ang kanilang sibat. Ang sibat ni Sarpedon ay tumusok sa lalamunan ni Tlepolemus. Ang sibat naman ni Tlepolemus ay tumama sa kaliwang hita ni Sarpedon.
+Tinapon nila ang kanilang sibat. Ang sibat ni Sarpedon ay tumusok at tumagos sa lalamunan ni Tlepolemus. Ang sibat naman ni Tlepolemus ay tumama sa kaliwang hita ni Sarpedon.
 
 Hinatak si Sarpedon ng mga kakampi niya. Sa pagmamadali nila, hindi naisipan tagkalin ang sibat para madalian si Sarpedon maglakad.
 
-Pinagpapatay ni Ulysses ang mga Lycian, isang tribong tumutulong sa mga Trojan. Tumugil lang si Ulysses sa kanyang pagpatay ng dumating si Hector.
+Pinagpapatay ni Odysseus ang mga Lycian, isang tribong tumutulong sa mga Trojan. Tumugil lang si Odysseus sa kanyang pagpatay nang dumating si Hector.
 
-Ihiniga si Sarpedon sa puno ng owk ni Zeus. Hinugot ni Pelagon ang sibat. Nagkabuhay muli si Sarpedon galing sa hilagang hangin.
+Ihiniga si Sarpedon sa puno ng owk ni Zeus. Hinugot ni Pelagon ang sibat. Bingiyan buhay muli ni Hilagang Hangin si Sarpedon.
 
-``Athena,'' sabi ni Hera. ``Hindi matutupad ang pangako natin kay Menelaus kapag si Ares ay patuloy na nakialam.''
+``Athena,'' simula ni Hera. ``Hindi matutupad ang pangako natin kay Menelaus kapag si Ares ay nakialam pa.''
 
 Pumunta si Hera kay Zeus at sinabi, ``Hindi ka ba nagagalit kay Ares? Tingnan mo siya. Payagan mo akong parusahan siya?''
 
-``Okieeeeee.'' (ulol mo Zeus, di ko gets kung bakit pinayagan niya ito, pero whateves)
+``Okie.'' (ulol mo Zeus, di ko gets kung bakit pinayagan niya ito, pero whateves)
 
 Bumaba silang dalawa sa labanan. Pinasigla ni Hera ang mga Achaean gamit ng boses niyang kasing lakas ng libangpung tao.
 
@@ -468,96 +474,104 @@ Sagot ni Diomedes, ``Hindi po ako naduwag o napagod. Sinusunod ko lamang ang sin
 
 ``Diomedes, kalimutan mo na yunnnnn. Napakatagal na yun eh. Dali, dali, sasaksakin natin si Ares.''
 
-Nagmaneho si Athena ng karwahe. Kinukunan ni Ares si Periphas ng kaniyang \textit{armor}. Sinuot ni Athena ang salakot ng ibisibidad (\textit{helmet of invisibility, helmet of Hades} whatever).
+Nagmaneho si Athena ng karwahe. Kinukunan ni Ares si Periphas ng kaniyang \textit{armor}. Sinuot ni Athena ang salakot ng inbisibidad (\textit{helmet of invisibility, helmet of Hades} whatever).
 
-Nang tumingin si Ares sa direksyon nila, hindi niya nakita si Athena, si Diomedes lang. Sinugod ni Ares si Diomedes at tinapon ang sibat sakanya. Pero ito ay sinambot ni Athena at pinalipad sa kanilang likod.
+Nang tumingin si Ares sa direksyon nila, hindi niya nakita si Athena, si Diomedes lamang. Sinugod ni Ares si Diomedes at tinapon ang sibat sakanya. Pero ito ay sinambot ni Athena at pinalipad sa kanilang likod.
 
-Tinapon naman ni Diomedes ang kaniyang sibat, at sa gabay ni Athena, ito ay pumasok sa tiyan ni Ares. Sumigaw si Ares (read : whine), kasing lakas ng siyam o sampung libong tao sa gitna ng laban.
+Tinapon naman ni Diomedes ang kaniyang sibat, at sa gabay ni Athena, ito ay pumasok sa tiyan ni Ares. Naginarte si Ares, ang boses kasing lakas ng siyam o sampung libong tao sa gitna ng laban.
 
-Lahat ng mangdirigma ay nagulat, sapagkat ang Diyos ng Digmaan ay parang sanggol na hinahanap ang kaniyang mga magulang.
+Lahat ng mangdirigma ay nagulat, sapagkat ang Diyos ng Digmaan ay parang isang sanggol na hinahanap ang kaniyang mga magulang.
 
-Ay, ayun nga. Si Ares ng ay isang sanggol na hinahanap ang kaniyang mga magulang. Lumipad si Ares patungo sa Olympus at hinahanap ang kaniyang papa. Pinakita niya ang sugat at sinabi, (ayaw kong isalin yun sinabi ni Ares, isipin ninyo na lang tinuro ni Ares yun sugat niya tapos umiyak, parang bata ba. Nagreklamo pa siya tungkol kay Ate Athena.)
+At parang isang sanggol na hinahanap ang kaniyang mga magulang, siya ay isang sanggol na hinahanap ang kaniyang mga magulang. Lumipad si Ares patungo sa Olympus at hinahanap ang kaniyang papa. Pinakita niya ang sugat at sinabi, (ayaw kong isalin yun sinabi ni Ares, isipin ninyo na lang tinuro ni Ares yun sugat niya tapos umiyak, parang bata ba. Nagreklamo pa siya tungkol kay Ate Athena.)
 
 Sabi naman ni Zeus, ``Hoy gago, wag ka ditong paungol-ungol, traydor. Ikaw ang pinaka ayaw kong Diyos sa lahat ng nasa Olympus. Kasing tigas mo ang ulo ng iyong ina. Lumayas ka sa tingin ko. Paean!''
 
-Dumating ang manggagamot ng mga Diyos at pinahidan ng Vicks VapoRub\textsuperscript{TM} at pinainom ng Lola Remedios\textsuperscript{TM} si Ares. Pinaliguan siya ng batang kapatid niyang si Hebe.
+Dumating si Paean, ang manggagamot ng mga Diyos, at pinahidan ng Vicks VapoRub\textsuperscript{TM} at pinainom ng Lola Remedios\textsuperscript{TM} si Ares. Pinaliguan siya ng batang kapatid niyang si Hebe.
 
 Ares, more like Arse, am I right? Haha napaka-funny ko. \pagebreak
 \chapter{Pagbalik ni Hector sa Troy}
 
-Tuloy-tuloy lang ang digmaan.
+Ok ok, it's time for\dots
 
-Niwasak ni Ajax na malaki ang isang \textit{phalanx} ng mga Trojan. Binutasan niya ang ulo ni Acamas.
+\begin{recap}
+    \item Nagwasak si Ajax na malaki ng isang \textit{phalanx}.
+    \item Binutasan ni Ajax na malaki si Acamas.
+    \item Pinatay ni Diomedes si Axylus at ang kaniyang katulong.
+    \item Kinitil ang buhay at kinunan ng \textit{armor} ni Euryalus ang kambal na si Aesepus at Pedasus.
+    \item MURDER CHAINNNN:
+    \begin{itemize}
+        \item \killchain{Polypoetes}{Astyalus}
+        \item \killchain{Odysseus}{Pidytes ng Percote}
+        \item \killchain{Tecuer}{Aretaon}
+        \item \killchain{Antilochus}{Ablerus}
+        \item \killchain{Agamemnon}{Elatus}
+        \item \killchain{Leitus}{Phylacus}
+    \end{itemize}
+\end{recap}
 
-Pinatay naman ni Diomedes si Axylus at ang kaniyang \textit{squire} Calesius (di ko rin alam kung anong ibigsabihin ng \textit{squire}.)
+Papatayin na ni Menelaus si Adrestus, pero nahulog siya sa kanyang sasakyan at nagpakaawa, ``Anak ni Atreus, pwetty pweaseeeee dow't akong kill? Meron si daddy pantubos. Mawaming mawaming peras. Pwease?''
 
-Euryalus ang pumatay kayna Dresus at Opheltius, at hinabol sina Aesepus at Pedasus. Naabutan parin Eurylaus ang dalawa at kinitil ang kanilang buhay. Kinuha rin ni Euryalus ang kanilang \textit{armor}.
+Papayag na sana si Menelaus nang lumapit si Agamemnon, ``Dude. Hindi nayon ang oras magpakita maawa. Wala tayong  ititirang Trojan.''
 
-Pinatay ni Polypoetes si Astyalus, Ulysses pinatay si Pidytes ng Percote, Tecuer si Aretaon, Antilochus si Ablerus, Agamemnon si Elatus, Leitus si Phylacus (monster kill o kung ano man, di ako naglalaro ng ML.)
-
-Papatayin ni Menelaus si Adrestus, pero nahulog siya sa kanyang sasakyan at nagpakaawa, ``Anak ni Atrues, pretty pleaseeeee wag akong patayin? Meron si dading (daddy-ng) pantubos. Pleaseeeeee?''
-
-Papayag na sana si Menelaus nang lumapit si Agamemnon, ``Dude. Hindi nayon para maawa. Wala tayong ittirang buhay.''
-
-At dahil dun, tinusok nila si Adrestus, si Menelaus sa unahan at si Agamemnon sa tabi. (Pinatay o bagong \textit{sex position}? Ikaw lamang ang makasasabi.)
+Nakobinsi si Menelaus. Tinusok nila si Adrestus, si Menelaus sa unahan at si Agamemnon sa tabi. (Pinatay o bagong \textit{sex position}? Walang makasasabi.)
 
 Sigaw ni Nestor sa mga Argives, ``Mayamaya na ninyong nakawan ang mga Trojan. Patay na sila, hindi naman aalis yan mga yan!''
 
-Umurong nang umurong ang mga Trojan. Sabi ni Helenus, anak ni Priam at isa sa pinakamatalino sa mga Trojan, ``Hector,, Aeneas, lumapit kayo dito. Huwag natin silang papapasukin dito sa \textit{gate}. Kaya lahat ng mga sundalo ay dito. \textit{defense} tayo. Ikaw Hector, pumasok ka sa loob at hanapin mo si inay. Sabihin mo na magdasal kay Athena kasama ng mga matrona niya. Ihandog narin kaya niya ang kanyang balabal at labing dalawang batang babaeng baka. Tulungan tayo ng mga Diyos.''
+Umurong nang umurong ang mga Trojan. Sabi ni Helenus, anak ni Priam at isa sa pinakamatalino sa mga Trojan, ``Hector, Aeneas, lumapit kayo dito. Malapit na silang pumasok sa \textit{gate}. Lahat ng mga sundalo ay dito ipuwesto natin dito. \textit{defense} tayo. Ikaw Hector, pumasok ka sa loob at hanapin mo si inay. Sabihin mo na magdasal kay Athena kasama ng mga matrona niya. Ihandog narin kaya niya ang kanyang balabal at labing dalawang batang babaeng baka. Kailangan natin ng tulong nila.''
 
-Sumunod ang dalawa. Ikinalat nila ang bagong diskarte.
+Sumunod ang dalawa. Ikinalat nila ang bagong diskarte sa mga tauhan.
 
-Pumasok si Hector sa loob ng Ilius. (Hey, yun pangalan ng kabanata!)
+At nayon, ang pagbalik ni Hector sa Troy. (Namedrop ng kabanata, dahil why not.)
 
-Nagkasalubong si Glaucus anak ni Hippolochus at si Diomedes. ``Hoy, sino ka? Napakagaling mong mandirigma pero parang hindi kita kilala. Isa kabang Diyos? Lahat ng lumaban sa isang Diyos ay walang ibang nakamit kung hindi sakit.''
+Nagkasalubong si Glaucus, anak ni Hippolochus, at si Diomedes. Sabi ni Diomedes, ``Hoy, sino ka? Napakagaling mong mandirigma pero parang hindi kita kilala. Isa kabang Diyos? Pero hindi eh.''
 
-``Bat ka nagtatanong? La namang silbi. Kapag ang ibigsabihin mo ay sino ang aking ama at mga ninuno, siguradong kilala mo sila. Ang aking ama ay si Hippolochus at ang ama ng ama ko ay si Bellerophon at ang ama ng ama ng ama ko ay si Glaucus at ang ama ng ama ng ama ng ama ko ay si Sisyphus. (Kung nalilito kayo, hanapin ninyo sa Internet ang linya ni Sisyphus. Ang Glaucus na kausap ni Diomedes ay parang the II kasi ang ama ng lolo niya ay Glaucus rin.)
+``Bat ka nagtatanong? La namang silbi. Ang tao ay parang lang dahong nahulog sa lupa, isang henerasyon pinapaltan ng kasunod. Pero kapag ang ibig sabihin mo ay sino ang aking ama at mga ninuno, siguradong kilala mo sila. Ang aking ama ay si Hippolochus at ang ama ng ama ko ay si Bellerophon at ang ama ng ama ng ama ko ay si Glaucus at ang ama ng ama ng ama ng ama ko ay si Sisyphus. (Kung nalilito kayo, hanapin ninyo sa Internet ang linya ni Sisyphus. Ang Glaucus na kausap ni Diomedes ay parang the II kasi ang ama ng lolo niya ay Glaucus rin.)
 
-``Nagkagusto si Antea, asawa ni Proetus hari ng Argos, kay Bellerophon. Ni-\textit{reject} ni Bellerophon si Antea. Kaya sinabi ni Antea sa kaniyang asawa, `Patayin mo si Bellerophon, Proetus! May sinabi siya sa akin...  Mataba daw ako! (Asawa ng Potiphar style)' Nagalit si Proetus, pero hindi niya ito pinatay, hindi diretsuhan. Gumawa siya ng sulat ng pagpapakilala at pinapunta niya si Bellerophon sa Lycia, sa kaniyang biyenang hari rin. Ang hindi niya alam na ang sulat ay puno ng kasinungalingan.
+``Nagkagusto si Antea, asawa ni Proetus hari ng Argos, kay Bellerophon. Ni-\textit{reject} ni Bellerophon si Antea. Kaya sinabi ni Antea sa kaniyang asawa, `Patayin mo si Bellerophon, Proetus! May sinabi siya sa akin...  Mataba daw ako! (Asawa ng Potiphar style)' Nagalit si Proetus, pero hindi niya pinatay si Bellerophon, hindi diretsuhan. Gumawa siya ng sulat ng pagpapakilala at pinapunta niya si Bellerophon sa Lycia, sa kaniyang biyenang hari rin. Ang hindi niya alam na ang sulat ay puno ng kasinungalingan.
 
-``Nang makarating siya sa ilog ng Xanthus, tinanggap ng hari si Bellerophon. Nagpiyesta sila ng pitong araw at naghandog ng pitong babaeng baka. Sa ika-sampung araw, ginusto ng haring makita ang sulat galing sa kaniyang manugang. Nang mabasa niya ang sulat, pinapatay niya kay Bellerophon ang Chimaera, isang aswang may ulo ng leon, may buntot ng ahas, may katawan ng kambing, at nabuga ng apoy. Sinasabi pa nga ito ay isang Diyosa. Siguradong mamamatay si Bellerophon.
+``Nang makarating si Bellerophon sa ilog ng Xanthus, tinanggap siya ng hari. Nagpiyesta sila ng siyam na araw at naghandog ng pitong babaeng baka. Sa ika-sampung araw, ginusto ng haring makita ang sulat galing sa kaniyang manugang. Nang mabasa niya ang sulat, nalaman niya ang tutuong rason kung bakit pinapunta niya si Bellerophon sa kaniyang kaharian. Pinapatay niya kay Bellerophon ang Chimaera, isang aswang may ulo ng leon, may buntot ng ahas, may katawan ng kambing, at nabuga ng apoy. Sinasabi pa nga ito ay isang Diyosa. Siguradong mamamatay si Bellerophon.
 
-``Pinatay ito ni Bellerophon ang Chimera. Kasunod ay pinatay si Solymi, isang napakalakas na mandirigma. Pinatay din ni Bellerophon siya. Kasunod naman ang mga Amazon. Patay din. Nang malaman ng hari siya ay pabalik na, pinili niya ang mga pinakamatatapang na Lycian at pinaambangan ng hari si Bellerophon. Walang kahit isa sa kanila ay nakabalik. Natakot ang hari. `Shiitttt siguro anak to ng isang Diyos,' inisip niya. Kaya ibinigay niya ang kaniyang babaeng anak para maging asaw ni Bellerophon, ginawa siyang hari ng Lycia, at binigyan siya ng lupa.
+``Pinatay ni Bellerophon ang Chimera. Kasunod ay pinatay si Solymi, isang napakalakas na mandirigma. Pinatay din ni Bellerophon siya. Kasunod naman ang mga Amazon. Patay din. Nang malaman ng hari siya ay pabalik na, pinili niya ang ilan sa mga pinakamatatapang na Lycian at pinaambangan ang pagbalik. Walang kahit isa sa kanila ay nakabalik. Natakot ang hari. `Shiitttt siguro anak to ng isang Diyos,' inisip niya. Kaya ibinigay niya ang kaniyang babaeng anak para maging asaw ni Bellerophon, ginawa siyang hari ng Lycia, at binigyan siya ng lupa.
 
 ``Nagkaanak sila. Isander, Hippolochus, at Laodameia. Pero, nagalit ang mga Diyosa kay Bellerophon. Napatay ni Ares si Isander, si Artemis si Laodameia. Kaya ako ay nan dito, upang ibalik ang karangalan na aking pamilya!'' (Zuko much?)
 
-Ibinaba ni Diomedes ang siba niya, ``Kung gano, ikaw ay isang kaibigan ng bahay ko. Si Bellerophon ay bumisita kay Oeneus, ang aking lolo. Nagbigayan sila ng tigisang regalo, si Oeneus nagbigay ng sinturong kulay lila at si Bellerophon nagbigay ng \textit{kantharos cup}. Hindi ko tanda ang aking ama, dahil kinuha siya nuong bata pa ako. Kaya sinasabi ko sa iyo Glaucus, besties? Huwag tayong magpapatayan, kay daming ibang pwede nating kalabanin. At kung bumisita kaw sa Argos, tatangapin kita, at \textit{vice-versa}. Para maging opisyal, tayo ay magbigayan ng ating \textit{armor}, para makita ng lahat tayo ay nagkabati.''
+Ibinaba ni Diomedes ang siba niya, ``Kung gano, ikaw ay isang kaibigan ng bahay ko. Si Bellerophon ay bumisita kay Oeneus, ang aking lolo. Nagbigayan sila ng tigisang regalo, si Oeneus nagbigay ng sinturong kulay lila at si Bellerophon nagbigay ng \textit{kantharos cup}. Hindi ko tanda ang aking ama, dahil kinuha siya nuong bata pa ako. Kaya sinasabi ko sa iyo Glaucus, besties? Huwag tayong maglaban. At kung bumisita ikaw sa Argos, tatangapin kita, at \textit{vice-versa}. Para maging opisyal, tayo ay magbigayan din ng \textit{armor}, tulad na lang ng ating mga pinuno.''
 
-Nagkamayan sila (they shook their hands, awan ko kung paano isalin), pero si ang \textit{armor} ni Glaucus ay mahalag, gawa sa ginto. Hindi niya ito ibibigay nang basta basta. Ayos lang sana kung mag kasing tumbas, pero ang preyso ng kay Glaucus ay isang daang baka at ang kay Diomedes na gawa sa tanso ay siyam lamang.
+Nagkamayan sila (shake their hands), pero ang \textit{armor} ni Glaucus ay mahalag, gawa sa ginto. Hindi niya ito ibibigay nang basta basta. Ayos lang sana kung mag kasing tumbas, pero ang preyso ng kay Glaucus ay isang daang baka at ang kay Diomedes na gawa sa tanso ay siyam lamang.
 
-Dinampot ni Zeus ang utak ni Glaucus at dahil dito, pumayag siyang makipagpalit. (LEGIT, hanapin nyo pa. Well, hindi dampot, baka mas angkop ay tinanggalan ng isipan.)
+Pero, sa gamit ng \textit{God Magic Bullshit Fuckery}, nilutang ni Zeus si Glaucus at dahil dito pumayag siyang makipagpalit.
 
----
+\seperate
 
-Maraming nakabantay sa \textit{gate} ng Troy, mga babaeng anak at asawa ng mga sundalo. Binati nila si Hector at tinanong kung merong balita tungkol sa kanilang mga kapatid, asawa, anak. Sinabi na lamang ni Hector na sila ay magdasal. Nalungkot, pero sumunod ang mga tao.
+Maraming nagaabang na mga asawa at anak sa \textit{gate} ng Troy. Binati nila si Hector at tinanong kung merong balita tungkol sa kanilang mga kapatid, asawa, o anak. Sinabi na lang ni Hector na sila ay magdasal. Nalungkot, pero sumunod ang mga tao.
 
-Nakarating na si Hector sa palasyo nila. Kay raming \textit{colonnades} (para bang lakaran na merong bubong) gawa sa batong \textit{hewn}. Merong limangpung silid-tulugan (see Jacksfilms - MANSION) lahat gawa sa batong \textit{hewn} (Paala, may libangpung lalaking anak si Priam). Sa kabilang banda ay labing dalawang kwarto, para naman sa mga babaeng anak niya. Lumapit ang nanay ni Hector kasama si Laodice, ang pinakamagandang anak ni Priam, ``Anak, bakit ka nandito? Bumalik ka ba para magdasal kay Zeus? Hintayin mo ako, kukuha ako ng alak para merong kang maalay. Para rin meron kang mainom.''
+Nakarating si Hector sa palasyo. Kay raming \textit{porticoes} (yun lakarang merong bubong) gawa sa batong \textit{hewn}. Merong limangpung silid-tulugan (see Jacksfilms - MANSION) lahat gawa rin sa batong \textit{hewn}. Dito natutulog lahat ng anak na lalaki ni Priam. Sa kabilang banda naman ay merong labing dalawang kwarto, para naman sa mga babaeng anak niya. Lumapit ang nanay ni Hector kasama si Laodice, ang pinakamagandang anak ni Priam, ``Anak, bakit ka nandito? Bumalik ka ba para magdasal kay Zeus? Hintayin mo ako, kukuha ako ng alak para merong kang maalay. Para rin meron kang mainom.''
 
-Tugon ni Hector, ``Hindi po inay. Napakarumi ko para magdasal nayon. Kayo po ang magdasal kay Athena para sa amin. Ialay ninyo ang pinakamagandang balabal ninyo. Ipangako rin ninyo na maghahandog tayo ng labing dalawang babaeng bakang hindi. Kung maawa ang Diyosa sa atin, at pigilan ang anak ni Tydeus sa pagpasok so loob ng Ilius. Pumunta na po kayo nayon, hahanpin ko si Paris. Kung lamunin na lang siya sana ng mundo...'' 
+Tugon ni Hector, ``Hindi po inay. Napakarumi ko para magdasal nayon. Kayo po ang magdasal kay Athena para sa amin. Ialay ninyo ang pinakamagandang balabal ninyo. Ipangako rin ninyo na maghahandog tayo ng labing dalawang babaeng baka kapag napigilan niya ang anak ni Tydeus sa pagpasok so loob ng Ilius. Pumunta na po kayo nayon, hahanpin ko si Paris. Lamunin na lang siya sana ng mundo\dots''
 
-Kinuha ng mga alipin ang balabal galing sa imbakan. Sa loob ng templo ni Athena, si Theano, anak ni Cisseus at asawa ni Antenor, ang nagbukas ng mga pintuan. Dasal niya, ``Diyosa, paki bali nga nung sibat ni Diomedes. Bibigyan ko po kayo ng labing dalawang babaeng baka.''
+Kinuha ng mga alipin ang balabal galing sa imbakan. Sa loob ng templo ni Athena, si Theano, anak ni Cisseus at asawa ni Antenor, ang nagbukas ng mga pintuan. Dasal niya, ``Diyosa ko, dinadasal namin na mabali ang sibat ni Diomedes. Kapalit po ay labing dalawang babaeng baka.''
 
 Hindi nakinig si Athena.
 
-Merong sariling bahay si Paris. Ito ay kalapit lamang sa palasyo ni Priam. Hawak ni Hector ang kaniyang limang metrong sibat. Pinagalitan niya si Paris, ``Hoy gago, alam mong kay daming namamatay sa labas. Dali, tumayo ka at para hindi bumagsak ang Ilius.''
+Merong sariling bahay si Paris. Ito ay kalapit lamang sa palasyo ni Priam. Hawak ni Hector ang kaniyang limang metrong sibat. Sinermonan niya si Paris, ``Hoy gago, alam mong may laban sa labas. Dali, tumayo ka at lumabas na tayo.''
 
 ``Tama lang ang iyong galit, kapatid. Pero, masyado akong na-gi-\textit{guilty}. Sige, hintay lang, susuotin ko ang \textit{armor} ko.'' Ang sagot ni Paris.
 
-Sinabi ni Helen kay Hector, ``Kuya, palagi kong ninasana na ako'y pinaanak at kinuha ng ipoipo at iniligay sa isang bundok o sa dagat kung saan ako'y namatay (napaka-drama ni Helen) para ang digmaan na ito ay hindi nangyari. Pero wala akong magagawa. Sana, kahit papaano ang naging asawa ko ay may alam. Hindi tulad ni Alexandros. Maaasahan (BURN BITCH). Kahit ano man, umupo ka muna. Ikaw ang nagbubuhat ng mga kasalanan ko at ni Alexandros.''
+Sinabi ni Helen kay Hector, ``Kuya, araw araw kong hinihiling na ako'y pinaanak at kinuha ng ipoipo at iniligay sa isang bundok o sa dagat kung saan ako ay mamatay ng gutom (napaka-drama ni Helen). Pero hindi eh. Binigay ako ni Aphrodite kay Alexandros. Kahit sana ang naging asawa ko ay may alam. Pero wala rin eh. Hindi maaasahan (Sa unahan talaga ni Paris, RESPECT.) Hayst, umupo ka muna. Ikaw rin naman ang nagbubuhat ng mga kasalanan ko at ni Alexandros.''
 
-Sagot ni Hector, ``Kahit wag na. Hindi ako puwedeng magtagal dito. Nagmamdali ako makabalik sa aking mga tauhan. Sabihan mo ang asawa mo na unahan ako makalabas. Dadaan muna ako sa aking asawa at anak. Hindi ko alam kung kailan ako makababalik, o kung makababalik pa ako.''
+Sagot ni Hector, ``Kahit wag na. Hindi ako puwedeng magtagal dito. Nagmamdali ako makabalik sa aking mga tauhan. Sabihan mo ang asawa mo na unahan ako makalabas. Dadaan muna ako sa aking asawa at anak. Hindi mo rin alam kung kailan makakabalik, o kung makakabalik pa.''
 
-Pinuntahan ni Hector ang bahay nila at hindi nahanap ang kanyang asawa at anak. ``Katulong, nasaan si Andromache? Nasa may kapatid ko ba? sa asawa ng kapatid? O nakikidasal siya sa templo ni Athena?''
+Pumunta si Hector sa bahay niya at nakitang wala ang mga hinahanap niya. ``Katulong, nasaan si Andromache? Nasa may kapatid ko ba? Sa asawa ng kapatid ko? O nakikidasal siya sa templo?''
 
-Sagot ng katulong, ``Nasa taas sila ng pader ng Ilius. May kasama siyang nars tagakarga sa anak ninyo po.''
+Sagot ng katulong, ``Nasa taas po sila ng pader ng Ilius. May kasama siyang nars tagakarga sa anak ninyo po.''
 
-Lumabas kaagad si Hector. Lalabas na siya sana ng lumapit ang kaniyang asawa, sa tabi niya ay ang nars. Si Andromache, anak ni Eition hari ng Thebe. Sa mga braso ng nars, ang kaniyang sanggol, ang kaniyang munting tala. Kahit ang binigay na pangalan ni Hector sa kaniya ay Scamandrius, ang tawag ng mga tao sa kaniya ay Astyanax (tagapagtanggol ng Siyudad, kuyt.) Hindi nagsalita si Hector, ngumiti lamang siya.
+Lumabas kaagad si Hector. Lalabas na siya sana ng lumapit ang kaniyang asawa, sa tabi niya ay ang nars. Si Andromache, anak ni Eition hari ng Thebe. Sa mga braso ng nars, ang kaniyang sanggol, ang kaniyang munting tala. Kahit ang binigay na pangalan ni Hector sa kaniya ay Scamandrius, ang tawag ng mga tao sa kaniya ay Astyanax (tagapagtanggol ng Siyudad, kuyt.) Hindi nagsalita si Hector, ngumiting tagumpay lamang siya.
 
-Iyak ni Andromache, ``Hoy, wag ka ng lumaban. Isipin mo yun anak mo. Isipin mo ako kung mag-iisa lang ako. Hindi ko kakayanin. Baka hindi ko kayanin at mamatay ako. Wala na akong magulang, walang sasalo kay Scamandrius. Lahat ng kapatid ko ay patay na rin. Dito ka na lang.''
+Iyak ni Andromache, ``Hector, wag ka ng lumaban. Isipin mo yun anak mo. Isipin mo ako kung mag-iisa lang ako. Hindi ko kakayanin. Baka hindi ko kayanin at mamatay ako. Wala na akong magulang, walang sasalo kay Scamandrius. Lahat ng kapatid ko ay patay na rin. Dito ka na lang.''
 
 ``Asawa,'' Simula ni Hector, ``naisip ko na rin yan. Pero, kailangan kong maging matapang para sa syudad natin. Paano ko pa mapapakita ang aking mukha sa mga kakapwang Trojan ko kapag ako ay nagtago? Paano na lalo kapag ikaw ay kunin ng mga Achaean at gawing alipin? Hindi kakayanin ng aking dibdib. Mauna akong mamatay bago kong marinig ang iyong mga sigaw para sa tulong.''
 
-Iniunat ni Hector ang kaniyang mga braso sa kaniyang anak, pero umiyak lang ang bata, takot sa suot niya. Tumawa ang dalawang magulang, binaba ni Hector ang \textit{helmet} na suot niya sa sahig. Kinuha niya ang mahal niyang sanggol, hinalikan sa noo, at dinasalan, ``Zues, bigyan ninyo ang aking anak ng lakas lampas sa akin. Huwag lang lakas ng katawan, lakas ding mamuno ng Ilius. At balang araw sasabihin ng mga tao, `Mas magaling ang anak sa ama.' Sana bigyan niya ang kaniyang inay ng kasayahan.''
+Iniunat ni Hector ang kaniyang mga braso sa kaniyang anak, pero umiyak lang ang bata, takot sa suot niya. Tumawa ang dalawang magulang, binaba ni Hector ang \textit{helmet} niya sa sahig. Kinuha niya ang mahal niyang sanggol, hinalikan sa noo, at dinasalan, ``Zues, bigyan ninyo ang aking anak ng lakas lampas pa sa akin. Huwag lang lakas ng katawan, lakas ding mamuno ng Ilius. At balang araw sasabihin ng mga tao, `Mas magaling ang anak sa ama.' Sana bigyan niya ang kaniyang inay ng kasayahan.''
 
 Binalik niya ang sanggol sa braso ng asawa niya. ``Asawa ko, huwag mong pepersonalin to ha? Walang magpapadala sa akin sa dalampasigan ni Hades. Dali, bumalik na lang kayo sa bahay.''
 
@@ -567,22 +581,22 @@ Hindi nagtagal si Paris sa bahay niya. Suot niya ang gintong \textit{armor} na m
 
 Nakita ni Paris si Hector kung saan nagusap ang mag-asawa. ``Hector, sorry for making you wait. Natagalan ako.''
 
-``Kapatid, magaling kang mandirigma, pero ika'y pabaya. Nasasaktan ako sa mga sinasabi ng mga tao tungkol sa iyo. Tara na, aayusin natin ang mga mali mo. Kung bibigyan tayo ni Zeus ng kaniyang basbas, pauurungin natin ang mga Achaean.''
+``Kapatid, magaling kang mandirigma, pero ika'y pabaya. Kahit gustong gusto kitang patayin, nasasaktan parin ako sa mga sinasabi ng mga tao tungkol sa iyo. Tara na, itatama natin ang mga mali mo. Kung bibigyan tayo ni Zeus ng kaniyang basbas, pauurungin natin ang mga Achaean.''
 
 \pagebreak
 \chapter{Duwelo ni Ajax at Hector}
 
-Guminhawa ng kahit kauntian ang pakiramdan ng mga Trojan sa pagbalik ni Hector at Paris.
+Guminhawa ng kahit kauntian ang pakiramdan ng mga Trojan nang makita nila si Hector at Paris.
 
 Pinatay ni Alexandrus si Menesthius anak ni Areithous. Sinugatan ni Hector si Eioneus sa tabi ng leeg niya. Si Glaucus ay nakikipaglaban kay Iphinous. Ang tatlong Trojan ang nanalo sa kani-kanilang laban.
 
-Nakita ni Athena ito at bumaba sa Ilius. How dare the Trojans be compentent? Hinabol siya ni Apollo para sabihin, ``Hoy, bat ka nandito? Wala ka bang awa sa mga Trojan ko? Mas maayos na ipagpaliban na muna natin ang giyera. Gustong gusto rin naman ninyong manalo ang mga Danaans. Patunayan nilang kaya nilang sirain ang Ilius.''
+Nakita ni Athena ito at bumaba sa Ilius. How dare the Trojans be compentent? Bago siya nakialam, inabutan siya ni Apollo. ``Hoy, bat ka nandito? Wala ka bang awa sa mga Trojan ko? Mas mabuti ay i-postpone na muna na natin to. Gustong gusto rin naman ninyong manalo ang mga Danaans. Patunayan nilang kaya nilang sirain ang Ilius.''
 
 Sabi ni Athena, ang Diyosa ng kaalaman, ``Sigeeeeee.'' (BAKIT KA PUMAYAG)
 
-``Sabihin natin kay Hector na manghamon siya ng isang Danaan na makipaglaban sa kanya. Tatangapin ito ng mga yun dahil mapapahiya sila kapag hindi sila pumayag.''
+``Ok ganito gagawin natin. Sabihin mo kay Hector na manghamon siya ng isang Danaan na makipaglaban sa kanya. Tatangapin ito ng mga yun dahil mapapahiya sila kapag hindi sila pumayag.''
 
-Sinabihan nila si Helenus at sinaba niya kay Hector, ``Kapatid, sabihin mo sa mga tauhan mo at sa mga Achaean na makikipag duwelo ka sa isang Achaean. Ito ang sinabi ng mga Diyos sa akin. Hindi nayon ang araw na maguguho ang Ilius.''
+Sinabi nila ito kay Helenus, isang Trojan tagadala ng propesiya. Pinadala niya ito kay Hector, ``Kapatid, sabihin mo sa mga tauhan mo at sa mga Achaean na makikipag duwelo ka sa isang Achaean. Pinadala ng mga Diyos sa akin ang balitang ito.''
 
 Hawak ang sibat sa gitna, pinaupo ni Hector ang mga sundalo niya. Nakita ito ni Agamemnon at pinaupo rin ang kaniyang mga tauhan.
 
@@ -590,68 +604,72 @@ Salita ni Hector, ``Mga Trojan at Achaean, may pinadalang babala ang mga Diyos n
 
 Tahimik lamang ang mga Achaean. Nahihiyang tumanggi, Natatakot tumanggap. Sa tagal nang paghihintay, tumayo si Meneluas. ``Hayst, mayabang ka Hector. Ang iyong bangkay ay maging lupa at tubig. Ako ang lalaban, pero ang mga Diyos lang ang makasasabi kung sino ang mananalo.''
 
-Tinigilan siya ni Agamemnon, ``Menelaus, may tama ka? Malakas ka, pero mas malakas si Hector. Kahit si Achilles ay natakot kalabanin siya. Dapat, kapag siya ang nanalo sa laban, dapat manghina man lamang siya.''
+Tinigilan siya ni Agamemnon, ``Menelaus, may tama ka? Malakas ka, pero mas malakas si Hector. Kahit si Achilles ay natakot kalabanin yan. Dapat, kahit manalo siya sa laban, dapat manghina man lamang siya.''
 
-\textit{Ouch}, inisip ni Menelaus, pero may punto ang kaniyang kapatid. Tumayo si Nestor at sinabi, ``Nasa masamang oras nayon ang bansa natin. Kung bata pa sana ako, papayag akong lumaban. Pero ikaw Menelaus, wala ka kay Hector.''
+\textit{Ouch}, inisip ni Menelaus, pero mas punto ang kaniyang kapatid. Tumayo si Nestor at sinabi, ``Nasa masamang oras nayon ang bansa natin. Kung bata pa sana ako, papayag akong lumaban. Pero ikaw Menelaus, wala ka kay Hector.''
 
-Pagkatapos ng saway \textit{session} ni Nestor, tumawag siya ng siyam na mandirigma. Si Agamemnon, Diomdes, ang dalawang Ajax, Idomeneus, Meriones, Eurypylus, Thoas, at Ulysses.
+Pagkatapos ng saway \textit{session} ni Nestor, nagpatawag siya ng siyam na mandirigma. Si Agamemnon, Diomedes, ang dalawang Ajax, Idomeneus, Meriones, Eurypylus, Thoas, at Odysseus.
 
 ``Ok, mag-dro-\textit{drawlats} tayo.'' Imik ni Nestor.
 
 Nagmarka sila sa isang bato at tinapon sa loob ng \textit{helmet} ni Agamemnon. Itinaas nila ang kanilang kamay upang magdasal, ``Daddy Zeus, ang mabunot sana si Ajax, o si Diomedes, o baka si Agamemnon mismo.''
 
-Bumunot si Nestor. Si Ajax na malaki. Ikinalat ang balita sa mga Achaean. Nang malaman ni Ajax, natuwa siya na siya ang napili. Tinapon niya sa lupa ang bato at sinabi, ``Mga kaibigan, tatapusin ko si Hector. Magdasal kayo, pabulong  man o pasigaw, wala akong paki, para tulungan ako ni Zeus.''
+Bumunot si Nestor. Si Ajax na malaki. Ikinalat ang balita sa mga Achaean. Nang malaman ni Ajax, natuwa siya na siya ang napili. Tinapon niya sa lupa ang bato at sinabi, ``Mga kaibigan, tatapusin ko si Hector. Magdasal kayo, pabulong  man o pasigaw, wala akong paki, upang ako ay pagpalain ni Zeus.''
 
-Nagdasal ang mga sundalo kay Zeus. Hiningi nila ang panalo ni Ajax, pero kung pabor siya kay Hector, gawing niyang pantay ang laban. 
+Isinuot ni Ajax ang \textit{armor} niyang gawa sa tanso. Nasayahan ang mga Achaean, natakot naman ang mga Trojan. Kahit si Hector nanginig ang mga tuhod. Hawak ni Ajax ang kaniyang mala pader na kalasag, na may pitong patong ng katad ng baka. Ang ika-walong patong, ang pinakalabas, ay gawa sa tanso. ``Hector, malalaman mo nayon, ang lakas ng mga Danaan. Maliban na lang kay Achilles, marami pa sa aming kayang lumaban sa iyo.''
 
-Isinuot ni Ajax ang \textit{armor} niyang gawa sa tanso. Nasayahan ang mga Achaean, natakot naman ang mga Trojan. Kahit si Hector nanginig rin ang mga tuhod. Hawak ni Ajax ang kaniyang mala pader na kalasag, na may pitong patong ng katad ng baka. Ang ika-walong patong, ang pinakalabas, ay gawa sa tanso. ``Hector, matututo ka nayon, kung ano ang lakas ng mga Danaan. Maliban na lang kay Achilles, marami pa sa aming kayang lumaban sa iyo.''
+``Ajax, anak ni Telamon, hindi ako isang batang hindi marunong lumaban.''
 
-``Ajax, anak ni Telamon, hindi ako isang batang hindi marunong lumaban. Papatayin kita kahit alam kong hindi ko ikaw masusopresa.''
-
-Tinapon ni Hector ang kaniyang sibat. Tumama ito sa kalasag ni Ajax. Tumigil sa huling katad ng kalasag niya. Si Ajax naman ang tumapon. Ang sibat ay dumaan sa kalasag ni Hector. Muntik na siyang matamaan, pero nainiwasan niya ito. Dinukot nila ang sibat na nasa kalasag at sinugod ang kalaban.
+Tinapon ni Hector ang kaniyang sibat. Tumama ito sa kalasag ni Ajax. Pumasok, pero tumigil sa huling katad. Si Ajax naman ang tumapon. Ang sibat ay dumaan sa kalasag ni Hector. Muntik na siyang matamaan, pero nainiwasan niya ito. Dinukot nila ang sibat na nasa kalasag at sinugod ang isa't isa.
 
 Isinaksak ni Hector ang sibat niya, pero ito ay tumama sa gitna ng kalasag ni Ajax. Hindi dumaan sa tanso ang sibat. Si Ajax naman ang sumaksak, at sa pagkakataon na ito, pumasok at tumagos sa kabilang banda ng kalasag. Nasugatan niya si Hector sa leeg. Kahit nadaloy ang dugo, tuloy paring lumaban si Hector.
 
-Dumapot ng bato sa sahig siya at inihampas sa kalasag ni Ajax. Tumunog ang tanso. Si Ajax naman ay kumuha ng mas malaking bato at itinapon kay Hector. Parang luad na pinindot, ang kalasag ni Hector nagkameron ng papasok na hugis. Nahulog siya at ang bigat ng kalasag nasa taas niya. Kaagad na itinayo siya ni Apollo.
+Dumapot ng bato sa sahig siya at inihampas sa kalasag ni Ajax. Tumunog ang tanso. Si Ajax naman ay kumuha ng mas malaking bato at itinapon kay Hector. Parang luad na pinindot, ang kalasag ni Hector nagkameron ng papasok na hugis. Nahulog siya sa sahig at ramdam na ramdam ang bigat ng kalasag sa katawan niya. Kaagad na itinayo siya ni Apollo.
 
-Tutuloy sana sila ng laban, this time with more swords, pero merong lumapit na mensahero galing sa dalawang bansa. Talthybius galing sa mga Achaean at Idaeus galing sa mga Trojan. Ihiniwalay nila ang dalawa gamit ng mahabang setro bitbit nila. ``Mga anak, tumigil na kayong maglaban, napakita na ninyo ang inyong katapangan at na pabor kayo ni Zeus. Dali, pagabi na.''
+Tutuloy sana sila ng laban, this time with more swords and even more gaya gaya puto maya, pero merong lumapit na mensahero galing sa dalawang bansa. Si Talthybius galing sa mga Achaean at si Idaeus galing sa mga Trojan. Ihiniwalay nila ang dalawa gamit ng mahabang setro bitbit nila. ``Mga anak, tumigil na kayong maglaban, napakita na ninyo ang inyong katapangan at na pabor kayo ni Zeus. Dali, pagabi na.''
 
 Sabi ni Ajax, ``Idaeus, tanungin mo si Hector at siya ang may pakana nitong duwelong ito.''
 
 Sabi ni Hector, ``Ajax, malinaw sa akin na mahalaga ikaw sa mga Diyos. Tumigil na nga tayo muna nayong araw. Tayo ay maglaban muli bukas, hangang merong manalo. Pero, tayo ay magbigayan tayo ng regalo, para masabi ng iba tayo'y nagkabati sa huli.''
 
-Ibinigay ni Ajax ang kaniyang pilak na espada, at ibinigay ni Hector ang lilang \textit{girdle} niya (kung ano man ibigsabihin ng girdle dito awan ko. Baka sinturon?)
+Ibinigay ni Ajax ang kaniyang pilak na espada, at ibinigay ni Hector ang lilang \textit{girdle} niya (kung ano man ibig sabihin ng girdle dito awan ko. Baka sinturon?)
 
-Nag-alay si Agamemnon ng limang taong gulang na baka kay Zeus. Ang katawan ay iniluto nila at kinain. Binigay ni Agamemnon ang \textit{loin} kay Ajax.
+Nag-alay si Agamemnon ng limang taong gulang na baka kay Zeus. Ang katawan ay iniluto nila at kinain. Binigay ni Agamemnon ang lomo kay Ajax bilang premyo. (Well, \textit{loin} lang ang nakasulat dun, hindi \textit{tenderloin} pero I think mas maayos dahil nga na lomo ay mas masarap sa tagiliran ng baka.)
 
-Pagkatapos nilang kumain, nagsalita si Nestor, ``Mga Achaean, marami sa ating mga kapatid ay nasa tahanan na ni Hades. Maayos sana bukas ng umaga, hindi tayo makipaglaban sa mga Trojan at sunugin ang mga bangkay ng mga kapatid natin. Ibalik ang mga buto sa kanilang mga pamilya. Tayo ay magtayo rin ng isang malaking pader, may \textit{gate}, may \textit{trench}.''
+Pagkatapos nilang kumain, nagsalita si Nestor, ``Mga Achaean, marami sa ating mga kapatid ay nasa tahanan na ni Hades. Maayos sana bukas ng umaga, hindi tayo makipaglaban sa mga Trojan at sunugin ang mga bangkay ng mga kapatid natin. Ibalik ang mga buto sa kanilang mga pamilya. Tayo ay magtayo rin ng isang malaking pader, na may \textit{gate}, na may \textit{trench}.''
 
-Sa loob ng palasyo ni haring Priam, nagkakaguluhan sila, isipin ninyo parang mga batang nagbabahay-bahayan pero kongreso ang ginagaya nila. Sigaw ni Antenor, ``Mga kapatid, ibigay na natin si Helen kay Menelaus upang tumigil na ang digmaan. Tayo ang lumabag sa kasunduan, at hindi tayo pabor sa mga mata ng mga Diyos.''
+Sa loob ng palasyo ni haring Priam, nagkakaguluhan sila, isipin ninyo parang mga batang nagbabahay-bahayan pero kongreso ang ginagaya nila. Sigaw ni Antenor, ``Mga kapatid, ibigay na natin si Helen kay Menelaus upang tumigil na ang digmaan. Tayo ang nakalabag sa kasunduan, at dahil nito hindi tayo pabor sa mata ng mga Diyos.''
 
-Tumayo si Paris, ``Antenor, tangina mo. Kapag taos-puso mong sinabi mo yan, kinunan ka siguro ng talino ng mga Diyos. Sinasabi ko na nayon, hindi ko ibabalik si Helen. Ang kayamanan ni Helen ibabalik ko, dadagdagan ko pa.''
+Tumayo si Paris, ``Antenor, tangina mo. Kapag taos-puso mong sinabi mo yan, kinunan ka siguro ng talino ng mga Diyos. Sinasabi ko na nayon, hindi ko ibabalik si Helen. Ang kayamanan lang ni Helen ang pumapayag akong ibak, dadagdagan ko pa.''
 
-Umupo si Paris, tumayo naman si Priam, ``Makinig kayong lahat. Kumain kayo ng inyong mga hapunan. Si Idaeus bukas nang umaga ay pupunta sa mga barko ni Agamemnon at Menelaus upang maihatid ang sinabi ni Paris. Sasabihin din niya na itigil muna ang laban upang masunog ang ating mga namatay na kapatid.''
+Umupo si Paris, tumayo naman si Priam, ``Makinig kayong lahat. Bumalik kayo sa inyong mga kampo at maghapunan. Si Idaeus bukas nang umaga ay pupunta sa mga barko ni Agamemnon at Menelaus upang maihatid ang sinabi ni Paris. Sasabihin din niya na itigil muna ang laban upang masunog natinn ang bangkay ng ating mga kapatid.''
 
-Kumain nga ang mga Trojan, at sa umaga, pumunta si Idaeus sa mga barko. Inilahad niya ang mga pinagusapan kagabi.
+Nagsiuwian nga at kumain ang mga Trojan, at sa umaga, pumunta si Idaeus sa mga barko ng mga Achaean. Inilahad niya ang mga pinagusapan kagabi.
 
-Sabi ni Diomdes, ``Wala kaming tatangapin, kitang kita ng lahat na paguho na ang Ilius. Kahit isa bata kita ito.''
+Sabi ni Diomedes, ``Wala kaming tatangapin, kitang kita ng lahat na paguho na ang Ilius. Kahit isang bata kita ito.''
 
-Nagsipalakpakan ang mga Achaean. Salita naman ni Agamemnon, ``Idaeus, nakinig mo na ang aming desisyon. Pero tungol sa mga patay, sangayon kami. Dapat ginagalang ang mga bangkay ng patay. Pakinggan ni Zeus ang kasunduan na ito.''
+Nagsipalakpakan at sigawan ang mga Achaean. Salita naman ni Agamemnon, ``Idaeus, nakinig mo na ang aming desisyon. Pero tungol sa mga patay, sangayon kami. Dapat ginagalang ang mga bangkay ng patay. Pakinggan ni Zeus ang kasunduang ito.''
 
 Bumalik si Idaeus at inilahad niya ang sagot ng mga Achaean. Nang nakinig nila ang balita, nagsimula sila kaagad. Ang mga Achaean rin ay nagumpisang kunin ang mga bangkay.
 
-Halos hindi nila makilala ang mga bangkay, hinugasan nila upang matagkal ang dugo. Umiiyak sila pero dahil pinagbawalan ni haring Priam ang panaghoy, tahimik nilang isinasakay nila ang mga katwas sa mga kariton. Tinambak nila ang mga katwan at sinunog.
+Halos hindi nila makilala ang mga bangkay; hinuhugasan pa nila upang matagkal ang dugo. Umiiyak sila pero dahil pinagbawalan ni haring Priam ang panaghoy, tahimik nilang isinasakay nila ang mga katwas sa mga kariton. Tinambak nila ang mga katwan at sinunog.
 
-Pagkatapos nun, nagsimulang gumawa ang mga Achaean ng pader. Nilgayan nila ng \textit{gate} at naghukay sila ng \textit{trench} na nilagyan nila ng mga patusok.
+Pagkatapos nun, nagsimulang gumawa ang mga Achaean ng pader. Nilgayan nila ng \textit{gate} at naghukay sila ng \textit{trench} na nilagyan nila ng mga patuso ispayk.
 
-Sa Olympus, nakita ni Poseidon ang pader. Salita niya, ``Wala man inalay yun mga Achaean. Paano na yun pader na ginawa namin ni Apollo para kay Laomedon?'' (naging mortal yun dalawa para sa kanilang parusa, look it up)
+Sa Olympus, nakita ni Poseidon ang pader. Salita niya, ``Aba aba, wala man kahit isang bakang inalay yun mga Achaean. Paano na yun pader na ginawa namin ni Apollo para kay Laomedon?'' (naging mortal yun dalawa para sa kanilang parusa, look it up)
 
 Sabi ni Zeus, ``Ha? Kapag mas maliit na Diyos ka, baka magets ko pa kung bakit ka nag-rereact. Pero ikaw? Tagadala ng lindol? Siguradong pwede mong wasakin naman pagkatapos ng digmaang ito?''
 
 Sa takipsilim, natapos ang mga Achaean sa kanilang pagpapatayo. Meron dalang alak si Lemnos, padala ni Euneus anak ni Jason. Mga sampung libong sukat ng alak ang ibinigay niya, lalo na sa magkapatid na anak ni Atreus. Nagpiyesta sila, tulad na rin ng mga Trojan.
 
-At dahil hindi sila nag-alay ng alak, nagalit si lansingero Zeus. Good luck boysss... \pagebreak
+At dahil hindi sila nag-alay ng alak, nagalit si lansingero Zeus. Good luck boysss\dots
+\pagebreak
 \chapter{Pag-ikot ng Laban}
+Sa umaga, nagpatawag ng isang pagpupulong si Zeus.``Ok makinig kayo,'' Simula niya. ``Bawal na kayong tumulong sa laban. Kahit Achean o Trojan. Walang aangal. Ang umangal tatapon ka sa Tartarus. Gets? Tandaan ninyo yun \textit{tug of war session} natin lahat?''
+
+
+
 \pagebreak
 \chapter{Test}
+\pagebreak
 \end{document}
