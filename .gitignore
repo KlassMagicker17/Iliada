@@ -3,3 +3,6 @@
 !.gitignore
 !ang iliada.tex
 !README.md
+!*.html
+!books/
+!main.css

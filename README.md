@@ -6,28 +6,26 @@ Hindi pa tapos ang proyetong ito. Kung nahanap ninyo to ng maaga, good job, basa
 
 Sa madaling salita, merong isang binatang nakaisip magbasa ng Iliad tapos isalin sa Filipino. Bakit? Awan ko. Fuck you.
 
-## Bakit ko to babasahin?
+## Bakit ko babasahin to?
 
-Mga ilang rason bakit kailangan ninyong babasahin ito :
+Mga ilang rason bakit kailangan ninyong basahin ito :
 
 * Sinumpa kayo ng inyong guro sa Filipino o Ingles magbasa ng Iliad.
 * Gusto ninyong basahin ang Iliad, pero ayaw ninyong mag-commit.
 * May tama kayo sa ulo. (Tulads tayo lods)
 * Naghahanap kayo ng magagawa pero ayaw ninyo mahirap yun gagawin.
-* Kayo ay kapatid ko.
 
 ## Anong nilalaman nito?
 
 Ang pdf na ito ay :
-* Lumalaman ng -
+* Naglalaman ng -
     * 'tunay' na salin ng kada libro
     * lista ng mga tauhan
     * buod ng kada libro
 * Pinaikli sa mga parteng tinamad ako isalin.
 * Nilagyan ng mura.
 * Merong paepal ko (sidenteos ganun).
-* Gumagamit na mas modernong salita, tulad ng balbal at Ingles.
-* Hinaluan ng mga super funny biro.
+* Hinaluan ng mga super funny biro ko.
 
 
 ## Pwede ko bang gamitin to?
