@@ -25,12 +25,15 @@ header {
 
 header ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin-right: 20px;
+
 }
 
 header ul li {
     display: inline-block;
+    display: flex;
 }
 
 header a {
@@ -49,6 +52,7 @@ header a:before {
     height: 2px;
     background-color: black;
     bottom: 0px;
+    left:0px;
     transform-origin: left bottom;
     transform: scaleX(0);
     transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -74,7 +78,7 @@ main div {
 main .book {
     width: min(100%, 700px);
     height: 100%;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin: auto;
 }
 
@@ -86,16 +90,19 @@ main .book {
 .book ol {
     list-style-type: upper-roman;
     padding: 0px;
+    width: max(250px,50%);
+    margin: 0px auto;
+    display: block;
 }
 
 .book ol li {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .book a {
     text-decoration: none;
     color: var(--auburn);
-    text-align: center;
 }
 
 .book h3 {
@@ -123,4 +130,13 @@ main .book {
 
 .navigator a:last-child::after {
     content: '\0020\276F';
+}
+
+@media only screen and (max-width: 600px) {
+    html,body {
+        font-size: 16px;
+    }
+    .book ol {
+        padding-left: 5%;
+    }
 }
