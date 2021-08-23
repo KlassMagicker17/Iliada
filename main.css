@@ -71,7 +71,7 @@ main {
     line-height: 2rem;
 }
 
-main div {
+main > div {
     padding: 30px;
 }
 
