@@ -132,11 +132,27 @@ main .book {
     content: '\0020\276F';
 }
 
+/* footer things */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gold-metallic);
+    height: 3rem;
+}
+
 @media only screen and (max-width: 600px) {
     html,body {
         font-size: 16px;
     }
     .book ol {
         padding-left: 5%;
+    }
+    main {
+        line-height: 2rem;
+    }
+    main p {
+        margin-bottom: 2rem;
+        margin-top : 2rem;
     }
 }

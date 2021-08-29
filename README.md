@@ -18,10 +18,7 @@ Mga ilang rason bakit kailangan ninyong basahin ito :
 ## Anong nilalaman nito?
 
 Ang pdf na ito ay :
-* Naglalaman ng -
-    * 'tunay' na salin ng kada libro
-    * lista ng mga tauhan
-    * buod ng kada libro
+* Naglalaman ng 'tunay' na salin ng kada libro
 * Pinaikli sa mga parteng tinamad ako isalin.
 * Nilagyan ng mura.
 * Merong paepal ko (sidenteos ganun).
